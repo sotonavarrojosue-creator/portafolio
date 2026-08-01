@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Juancho's Tejar">
+  <rect width="64" height="64" fill="#141210"/>
+  <path d="M32 8 L54 48 L10 48 Z" fill="#f5b301"/>
+  <circle cx="24" cy="36" r="3.2" fill="#141210"/>
+  <circle cx="40" cy="30" r="3.2" fill="#141210"/>
+  <circle cx="34" cy="42" r="3.2" fill="#141210"/>
+  <path d="M32 48 L32 58 M26 55 L32 58 L38 55" stroke="#ff4f00" stroke-width="3" fill="none"/>
+</svg>
