@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1c6e3a">
+  <title>Express La Tejita — Pupusas, ceviche y boquitas en Cartago</title>
+  <meta name="description" content="Soda Express La Tejita en Cartago. Pupusas, ceviche, boquitas los viernes y servicio express a domicilio. Pedidos por WhatsApp.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231c6e3a'/%3E%3Ctext x='32' y='44' font-family='Arial Black' font-size='34' font-weight='900' text-anchor='middle' fill='%23fbf4e2'%3ET%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Express La Tejita — inicio">
+      <img src="logo.svg" alt="" width="44" height="44">
+      <span class="brand-text">
+        <strong>LA&nbsp;TEJITA</strong>
+        <em>EXPRESS&nbsp;·&nbsp;CARTAGO</em>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#menu">Menú</a>
+      <a href="#pedir">Pedir</a>
+      <a href="#ubicacion">Ubicación</a>
+    </nav>
+    <a class="btn btn-wa" href="https://wa.me/50661033702?text=Hola%2C%20Express%20La%20Tejita%2C%20quiero%20hacer%20un%20pedido">Pedir por WhatsApp</a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-tag">
+        <span class="mono">SODA&nbsp;·&nbsp;CARTAGO&nbsp;·&nbsp;CR</span>
+      </div>
+      <h1>Pupusas, ceviche y boquitas.<br><span class="hl">Express, como su nombre.</span></h1>
+      <p class="hero-sub">Comida hecha al momento, pedidos por WhatsApp y entrega a domicilio en Cartago.</p>
+      <div class="hero-actions">
+        <a class="btn btn-cta" href="https://wa.me/50661033702?text=Hola%2C%20Express%20La%20Tejita%2C%20quiero%20hacer%20un%20pedido">Pedir por WhatsApp&nbsp;→</a>
+        <a class="btn btn-ghost" href="#menu">Ver menú</a>
+      </div>
+      <dl class="hero-facts">
+        <div><dt class="mono">[01]</dt><dd>Pedidos al +506&nbsp;6103&#8209;3702</dd></div>
+        <div><dt class="mono">[02]</dt><dd>Servicio express a domicilio</dd></div>
+        <div><dt class="mono">[03]</dt><dd>Viernes de boquitas</dd></div>
+      </dl>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>PEDIDOS POR WHATSAPP 6103‑3702</span><span>✦</span>
+        <span>SERVICIO EXPRESS</span><span>✦</span>
+        <span>VIERNES DE BOQUITAS</span><span>✦</span>
+        <span>CEVICHE FRESCO</span><span>✦</span>
+        <span>PEDIDOS POR WHATSAPP 6103‑3702</span><span>✦</span>
+        <span>SERVICIO EXPRESS</span><span>✦</span>
+        <span>VIERNES DE BOQUITAS</span><span>✦</span>
+        <span>CEVICHE FRESCO</span><span>✦</span>
+      </div>
+    </div>
+
+    <section class="menu" id="menu">
+      <div class="sec-head">
+        <span class="mono">/ MENÚ</span>
+        <h2>Lo que sale de la cocina</h2>
+        <p class="sec-sub">Menú de muestra. Todos los pedidos se confirman por WhatsApp.</p>
+      </div>
+      <ul class="menu-list">
+        <li class="menu-row">
+          <span class="row-idx mono">[01]</span>
+          <div class="row-body">
+            <h3>Pupusas</h3>
+            <p>De queso, revuelta y de frijol con queso. Con curtido y salsa al lado.</p>
+          </div>
+          <span class="row-note mono">AL MOMENTO</span>
+        </li>
+        <li class="menu-row">
+          <span class="row-idx mono">[02]</span>
+          <div class="row-body">
+            <h3>Ceviche</h3>
+            <p>Delicioso ceviche fresco, como lo piden en Cartago.</p>
+          </div>
+          <span class="row-note mono">FRESCO</span>
+        </li>
+        <li class="menu-row">
+          <span class="row-idx mono">[03]</span>
+          <div class="row-body">
+            <h3>Boquitas de viernes</h3>
+            <p>La selección de boquitas para compartir, todos los viernes.</p>
+          </div>
+          <span class="row-note mono">VIERNES</span>
+        </li>
+        <li class="menu-row">
+          <span class="row-idx mono">[04]</span>
+          <div class="row-body">
+            <h3>Comidas express</h3>
+            <p>Platos rápidos para llevar, sin esperas largas.</p>
+          </div>
+          <span class="row-note mono">EXPRESS</span>
+        </li>
+        <li class="menu-row">
+          <span class="row-idx mono">[05]</span>
+          <div class="row-body">
+            <h3>Entrega a domicilio</h3>
+            <p>Llevamos el pedido hasta su casa en Cartago.</p>
+          </div>
+          <span class="row-note mono">A DOMICILIO</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="order" id="pedir">
+      <div class="sec-head sec-head-inv">
+        <span class="mono">/ ARME SU PEDIDO</span>
+        <h2>Tres pasos, y la comida en camino</h2>
+      </div>
+      <ol class="steps">
+        <li><span class="mono">1.</span><p>Elija lo que quiere del menú</p></li>
+        <li><span class="mono">2.</span><p>Ajuste las cantidades acá abajo</p></li>
+        <li><span class="mono">3.</span><p>Envíe el pedido por WhatsApp y listo</p></li>
+      </ol>
+
+      <div class="builder" data-builder>
+        <ul class="builder-items">
+          <li class="b-item" data-item="Pupusa de queso">
+            <span class="b-name">Pupusa de queso</span>
+            <div class="b-stepper">
+              <button type="button" class="b-btn" data-step="-1" aria-label="Quitar una Pupusa de queso">−</button>
+              <output class="b-qty mono" data-qty>0</output>
+              <button type="button" class="b-btn" data-step="1" aria-label="Agregar una Pupusa de queso">+</button>
+            </div>
+          </li>
+          <li class="b-item" data-item="Pupusa revuelta">
+            <span class="b-name">Pupusa revuelta</span>
+            <div class="b-stepper">
+              <button type="button" class="b-btn" data-step="-1" aria-label="Quitar una Pupusa revuelta">−</button>
+              <output class="b-qty mono" data-qty>0</output>
+              <button type="button" class="b-btn" data-step="1" aria-label="Agregar una Pupusa revuelta">+</button>
+            </div>
+          </li>
+          <li class="b-item" data-item="Ceviche">
+            <span class="b-name">Ceviche</span>
+            <div class="b-stepper">
+              <button type="button" class="b-btn" data-step="-1" aria-label="Quitar un ceviche">−</button>
+              <output class="b-qty mono" data-qty>0</output>
+              <button type="button" class="b-btn" data-step="1" aria-label="Agregar un ceviche">+</button>
+            </div>
+          </li>
+          <li class="b-item" data-item="Boquitas para compartir">
+            <span class="b-name">Boquitas para compartir</span>
+            <div class="b-stepper">
+              <button type="button" class="b-btn" data-step="-1" aria-label="Quitar boquitas">−</button>
+              <output class="b-qty mono" data-qty>0</output>
+              <button type="button" class="b-btn" data-step="1" aria-label="Agregar boquitas">+</button>
+            </div>
+          </li>
+          <li class="b-item" data-item="Entrega a domicilio">
+            <span class="b-name">Entrega a domicilio</span>
+            <div class="b-stepper">
+              <button type="button" class="b-btn" data-step="-1" aria-label="Quitar entrega a domicilio">−</button>
+              <output class="b-qty mono" data-qty>0</output>
+              <button type="button" class="b-btn" data-step="1" aria-label="Agregar entrega a domicilio">+</button>
+            </div>
+          </li>
+        </ul>
+        <div class="builder-out">
+          <p class="mono builder-label">SU PEDIDO</p>
+          <ul class="builder-summary" data-summary aria-live="polite">
+            <li class="empty">Sin items todavía — elija algo del menú.</li>
+          </ul>
+          <a class="btn btn-wa btn-block" href="https://wa.me/50661033702?text=Hola%2C%20Express%20La%20Tejita%2C%20quiero%20hacer%20un%20pedido" data-send>Enviar pedido por WhatsApp</a>
+          <p class="mono builder-note">El pedido se abre en WhatsApp con el número de la soda.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="where" id="ubicacion">
+      <div class="sec-head">
+        <span class="mono">/ DÓNDE</span>
+        <h2>En Cartago, cerca de usted</h2>
+      </div>
+      <div class="where-grid">
+        <div class="where-card">
+          <p class="mono">[ DIRECCIÓN ]</p>
+          <p>Cartago, Costa Rica.<br>Servicio express y a domicilio.</p>
+        </div>
+        <div class="where-card">
+          <p class="mono">[ HORARIO ]</p>
+          <p>Abierto de lunes a domingo.<br>Consulte el horario del día por WhatsApp.</p>
+        </div>
+        <div class="where-card">
+          <p class="mono">[ CONTACTO ]</p>
+          <p class="big-tel">+506&nbsp;6103&#8209;3702</p>
+          <p>WhatsApp directo para pedidos.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-final">
+      <h2>¿Se le antojó?<br>Mándenos un mensaje.</h2>
+      <a class="btn btn-cta" href="https://wa.me/50661033702?text=Hola%2C%20Express%20La%20Tejita%2C%20quiero%20hacer%20un%20pedido">Pedir por WhatsApp&nbsp;→</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand">
+      <img src="logo.svg" alt="" width="36" height="36">
+      <span>Express&nbsp;La&nbsp;Tejita&nbsp;·&nbsp;Cartago</span>
+    </div>
+    <p class="mono">PEDIDOS&nbsp;·&nbsp;+506&nbsp;6103&#8209;3702</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
