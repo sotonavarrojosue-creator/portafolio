@@ -4,8 +4,7 @@
 (function () {
   'use strict';
 
-  var WA_NUMBER = '50683131356';
-  var WA_BASE = 'Hola, Juancho\'s, quiero ordenar:';
+  var PHONE = '+50683131356';
 
   function fmtColones(n) {
     return '₡' + n.toLocaleString('es-CR');
@@ -58,17 +57,7 @@
     summary.innerHTML = lines.join('');
     sendBtn.removeAttribute('aria-disabled');
 
-    var pedido = WA_BASE;
-    items.forEach(function (item) {
-      var name = item.getAttribute('data-item');
-      var n = qty[name];
-      if (n > 0) {
-        pedido += '\n- ' + name + ' x' + n + ' (' + fmtColones(prices[name] * n) + ')';
-      }
-    });
-    pedido += '\nTotal: ' + fmtColones(total);
-
-    sendBtn.href = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(pedido);
+    sendBtn.href = 'tel:' + PHONE;
   }
 
   builder.addEventListener('click', function (e) {
