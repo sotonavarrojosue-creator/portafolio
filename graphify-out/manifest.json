@@ -1,0 +1,1857 @@
+{
+  ".obsidian/app.json": {
+    "mtime": 1784329917.08992,
+    "ast_hash": "31bc479937b5afe7fa110712abd0ab39",
+    "semantic_hash": ""
+  },
+  ".obsidian/graph.json": {
+    "mtime": 1784330078.891999,
+    "ast_hash": "ff83983f67c547ec1ed4dc90d55ce923",
+    "semantic_hash": ""
+  },
+  ".obsidian/plugins/dataview/main.js": {
+    "mtime": 1783571426.8248627,
+    "ast_hash": "17271febd9cc7192a727d29cf544bd81",
+    "semantic_hash": ""
+  },
+  ".obsidian/plugins/dataview/manifest.json": {
+    "mtime": 1783571425.7601972,
+    "ast_hash": "d32e8819a2a4841067c0a4e8055cc22f",
+    "semantic_hash": ""
+  },
+  ".obsidian/plugins/opencode/main.js": {
+    "mtime": 1783565936.9882314,
+    "ast_hash": "29618659408e0daf41c5afa347ec0287",
+    "semantic_hash": ""
+  },
+  ".obsidian/plugins/opencode/manifest.json": {
+    "mtime": 1783565936.254462,
+    "ast_hash": "e40f0fb45e2d949da55bd338a08e3149",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/app.py": {
+    "mtime": 1783115430.0,
+    "ast_hash": "3c3bac34b3f121c2facba09dfe4ebb0e",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/core/__init__.py": {
+    "mtime": 1783114770.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/core/brain.py": {
+    "mtime": 1784302660.396878,
+    "ast_hash": "15a0163616d4e3831c0911fbb615fb6a",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/core/config.py": {
+    "mtime": 1784319428.2710564,
+    "ast_hash": "21af2c1633203604db6366ba020a9ccf",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/core/memory.py": {
+    "mtime": 1784319428.2690563,
+    "ast_hash": "f99f3b34eec718c06b1cb3519739285e",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/core/whisper_singleton.py": {
+    "mtime": 1784300598.8949656,
+    "ast_hash": "84d04c5673056147e1a44ede012a5bf9",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/data/alarms.json": {
+    "mtime": 1784303038.9154856,
+    "ast_hash": "3838854aa9915426b6c14cbe4ed65897",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/data/config/settings.json": {
+    "mtime": 1784261259.6204388,
+    "ast_hash": "d933f068841c9648f5f8ea5bf356b108",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/data/memory/session_20260629.json": {
+    "mtime": 1783114770.0,
+    "ast_hash": "82ef47b9251e66e996d14ef80f280681",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/data/memory/session_20260704.json": {
+    "mtime": 1783204581.0,
+    "ast_hash": "476dfd55b0923b1cad3efd42d37fe8a4",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/input/__init__.py": {
+    "mtime": 1783114770.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/input/text_input.py": {
+    "mtime": 1783114770.0,
+    "ast_hash": "2e1cc26b438adab94f0189ee6f85339f",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/input/voice_input.py": {
+    "mtime": 1784319835.6502097,
+    "ast_hash": "50c5f77559756ae20c57c238b8b60d15",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/input/wake_word.py": {
+    "mtime": 1783114770.0,
+    "ast_hash": "21e8c3e0a06d802386c24e778f165519",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/install.sh": {
+    "mtime": 1783115445.0,
+    "ast_hash": "bf4dfbd14a2afcb2c78114fee3360f9a",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/jarvis-desktop.sh": {
+    "mtime": 1783196791.0,
+    "ast_hash": "96a082a80ff50a6f94d763ff958f4770",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/jarvis-start.sh": {
+    "mtime": 1783114770.0,
+    "ast_hash": "0b86d7ef6cc443f1f625a07308a99aad",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/jarvis.sh": {
+    "mtime": 1783114770.0,
+    "ast_hash": "0cddee33b89ce230a0f80b04bbfc0eae",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/main.py": {
+    "mtime": 1784319428.2670565,
+    "ast_hash": "ea4ce0fdc107af7e2f451d98f3d8e918",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/mcp_server.py": {
+    "mtime": 1784321821.1340628,
+    "ast_hash": "4444a9d7233cb828bc4cf4f99e329749",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/obsidian_logger.py": {
+    "mtime": 1783114770.0,
+    "ast_hash": "98c827d578781a1a1cc29dedf1d4865f",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/output/__init__.py": {
+    "mtime": 1783114770.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/output/display.py": {
+    "mtime": 1784298820.5974822,
+    "ast_hash": "2a5d61e4bd62a2fc2b719a8c2455caec",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/output/text_output.py": {
+    "mtime": 1784298820.5994823,
+    "ast_hash": "5ad0740c6fb713e8a1b9dcead5ddf946",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/output/voice_hud.py": {
+    "mtime": 1784298820.5954823,
+    "ast_hash": "b5cf89daf95676328222d80b1275adbc",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/output/voice_output.py": {
+    "mtime": 1784319835.6522095,
+    "ast_hash": "50ab58bcdd74c30a16b9c926f72675c0",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/scripts/install.sh": {
+    "mtime": 1783114770.0,
+    "ast_hash": "fff5d4a0ae86dc110a6496cdd6a45775",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/scripts/start.sh": {
+    "mtime": 1783114770.0,
+    "ast_hash": "f4230c01307cd4fc2d50fee6a8ba9383",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/__init__.py": {
+    "mtime": 1783114770.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/alarms.py": {
+    "mtime": 1784303020.5467112,
+    "ast_hash": "812b8e72ac61162b0449a76122da47a3",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/calculator.py": {
+    "mtime": 1783114770.0,
+    "ast_hash": "f5ef0a20296e68507eaec3f54f9b3092",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/datetime_skill.py": {
+    "mtime": 1783114770.0,
+    "ast_hash": "54521568d3a3fd1129de52f56b612a81",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/file_manager.py": {
+    "mtime": 1783116090.0,
+    "ast_hash": "420fae00199a13d0ac6ab90ed0e2b086",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/ip_geo.py": {
+    "mtime": 1783114770.0,
+    "ast_hash": "5ecaa195a72603610285acaca442b7ee",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/news.py": {
+    "mtime": 1783114770.0,
+    "ast_hash": "bacddc4e0e3448bd2fe19ed6128ccedb",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/notes.py": {
+    "mtime": 1783114770.0,
+    "ast_hash": "79b4d3892edf36803087a4badf2bba6f",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/plugins/__init__.py": {
+    "mtime": 1784303013.8967936,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/plugins/conversor_unidades.py": {
+    "mtime": 1784304174.4268832,
+    "ast_hash": "447c0ad3d6a20d7ce8ef9fe82b2d2850",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/plugins/example_skill.py": {
+    "mtime": 1784302990.618085,
+    "ast_hash": "12b95c7daeed266b3aeed506e86de94a",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/plugins/saludo_personal.py": {
+    "mtime": 1784304130.649848,
+    "ast_hash": "79cf4adeb9dee09ff3d992f3bab1cb86",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/reminders.py": {
+    "mtime": 1783115690.0,
+    "ast_hash": "97d690f5dc75d6a37914b7ae109a050c",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/skill_manager.py": {
+    "mtime": 1784304138.1178553,
+    "ast_hash": "e650d90a9f12d0de23ea7e20f0f54b4e",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/spotify.py": {
+    "mtime": 1783114770.0,
+    "ast_hash": "abcee2bc181cfe9097a259f7339f6921",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/system_control.py": {
+    "mtime": 1783115658.0,
+    "ast_hash": "ed2fd7ef01294cc50fc30c50f5567e5e",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/telegram.py": {
+    "mtime": 1783114770.0,
+    "ast_hash": "f6d4362be180eaeb4f6d2d62206af74d",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/translator.py": {
+    "mtime": 1783114770.0,
+    "ast_hash": "a46fde259394e20aa7f845f9d0c6213c",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/weather.py": {
+    "mtime": 1783114770.0,
+    "ast_hash": "0f956900f483538b067944d4bbe99c66",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/web_search.py": {
+    "mtime": 1783115726.0,
+    "ast_hash": "9d387ee479ff0dcbdfd1e426fcad0297",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/test_mcp.py": {
+    "mtime": 1784321906.6489618,
+    "ast_hash": "98cdf543c9f6631efa84a7d04a6fbcd4",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/tests/__init__.py": {
+    "mtime": 1784319428.2750564,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/tests/conftest.py": {
+    "mtime": 1784319428.2750564,
+    "ast_hash": "5d6164246fcf7be062b1a552fbbdd243",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/tests/test_brain.py": {
+    "mtime": 1784319428.2750564,
+    "ast_hash": "d573ff32eb6035694c5ee1ea671203cb",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/tests/test_config.py": {
+    "mtime": 1784319428.2750564,
+    "ast_hash": "540fc4de57ed5b215c922e46141f8ac0",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/tests/test_memory.py": {
+    "mtime": 1784319428.2750564,
+    "ast_hash": "9db4a0df565353fd21ca882fc7f13daf",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/tests/test_skills.py": {
+    "mtime": 1784319428.2750564,
+    "ast_hash": "de54c750ec8866d76091db0e79ece928",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/webui.py": {
+    "mtime": 1783114770.0,
+    "ast_hash": "f7c2eab162e30e3141e385238c802899",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/webui/__init__.py": {
+    "mtime": 1783114770.0,
+    "ast_hash": "db8a630ef10421a5b9e70cbbbee61295",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/webui/server.py": {
+    "mtime": 1784303070.00811,
+    "ast_hash": "514644d3748fa8c25ea8d679186de41f",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/build.gradle.kts": {
+    "mtime": 1783546924.9076176,
+    "ast_hash": "c5f0e15f65b2790ed1d458c62cf7be54",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/ClassNotesApplication.kt": {
+    "mtime": 1783546924.9069748,
+    "ast_hash": "f6515cae0138526a608a10f8c9b4e202",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/MainActivity.kt": {
+    "mtime": 1783546924.9069748,
+    "ast_hash": "a4a86e3e7149fa37ddc8c601b4f6051a",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/data/local/dao/RecordingDao.kt": {
+    "mtime": 1783546924.9053855,
+    "ast_hash": "752934a3900f693d884b49ec09f638b5",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/data/local/database/AppDatabase.kt": {
+    "mtime": 1783546924.9054668,
+    "ast_hash": "4ed50fccf6b746edb3300f0aab41e3c9",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/data/local/database/EncryptedDatabase.kt": {
+    "mtime": 1783546924.9054668,
+    "ast_hash": "62cacee0b6155d23105f6bbe884e9381",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/data/local/entity/RecordingEntity.kt": {
+    "mtime": 1783546924.905577,
+    "ast_hash": "3df755a979db491df02baf7868a3111b",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/data/remote/interceptor/AuthInterceptor.kt": {
+    "mtime": 1783546924.905753,
+    "ast_hash": "a1f8e029233884971b7a4d510ea183d8",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/data/remote/openrouter/OpenRouterApiService.kt": {
+    "mtime": 1783546924.9058855,
+    "ast_hash": "9bac28d9fcde6138ce3cfd741a709f57",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/data/remote/openrouter/OpenRouterRepository.kt": {
+    "mtime": 1783546924.9058855,
+    "ast_hash": "f0406a2d9645bb2d34fde4fd3887e924",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/data/remote/openrouter/SecurePrompts.kt": {
+    "mtime": 1783546924.9058855,
+    "ast_hash": "c13396a1ccc116bdad598c8227b6a468",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/di/AppModule.kt": {
+    "mtime": 1783546924.9061167,
+    "ast_hash": "d5efdb9914b8d39a64834a6c7fdffa08",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/di/DatabaseModule.kt": {
+    "mtime": 1783546924.9061167,
+    "ast_hash": "aa846c5b8790d1097e16b4c31587013d",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/di/SecurityModule.kt": {
+    "mtime": 1783546924.9061167,
+    "ast_hash": "6d34133e0d57fe6a7b17a4d26bfe29aa",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/domain/model/Recording.kt": {
+    "mtime": 1783546924.9062245,
+    "ast_hash": "ba18b255f04fa27671642b512d550219",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/domain/usecase/RecordingUseCases.kt": {
+    "mtime": 1783546924.9063303,
+    "ast_hash": "5d6241ba3af544ce03fb64fd65325a80",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/domain/usecase/SettingsUseCases.kt": {
+    "mtime": 1783546924.9063303,
+    "ast_hash": "7e4a78f444b61688c6617626db653639",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/domain/usecase/WorkerUseCases.kt": {
+    "mtime": 1783546924.9063303,
+    "ast_hash": "0b0063d70eb395e3440b8188b7b1be28",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/security/CryptoManager.kt": {
+    "mtime": 1783546924.9064415,
+    "ast_hash": "cc9e8a6900e3a89cd6ed1895dc690674",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/security/SecurePreferences.kt": {
+    "mtime": 1783546924.9064415,
+    "ast_hash": "76cd56a679b1e9e130a2b057bfedcece",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/security/SecurityConstants.kt": {
+    "mtime": 1783546924.9064415,
+    "ast_hash": "c74f8bbddaf3048e5b3904321e85643f",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/service/AudioRecordingService.kt": {
+    "mtime": 1783546924.9065573,
+    "ast_hash": "8dd5a143806a85d04a396658f12ad9b9",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/ui/theme/Color.kt": {
+    "mtime": 1783546924.906701,
+    "ast_hash": "05a96b053cdf84de3c1aeee54eeaf64d",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/ui/theme/Theme.kt": {
+    "mtime": 1783546924.906701,
+    "ast_hash": "528740213d50447bb1b6897a18caee8b",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/ui/theme/Type.kt": {
+    "mtime": 1783546924.906701,
+    "ast_hash": "4db2dbe7a3d28655b918a2b2a08d38d3",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/ui/viewmodel/DetailViewModel.kt": {
+    "mtime": 1783546924.9068325,
+    "ast_hash": "eec87fbc1d5ad395b2cb2dff2843207e",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/ui/viewmodel/HomeViewModel.kt": {
+    "mtime": 1783546924.9068325,
+    "ast_hash": "026a51204731532cea33019ba04e05ca",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/ui/viewmodel/RecordingViewModel.kt": {
+    "mtime": 1783546924.9068325,
+    "ast_hash": "88d84d3a9c2bf5233cf0f9fcecee8646",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/ui/viewmodel/SettingsViewModel.kt": {
+    "mtime": 1783546924.9068325,
+    "ast_hash": "063ad9fdde290cd80e7d88ca08f5ecd7",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/worker/SummarizationWorker.kt": {
+    "mtime": 1783546924.9069748,
+    "ast_hash": "0b8378cadd2db77282d957fa6d476ed9",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/app/src/main/java/com.classnotes.app/worker/TranscriptionWorker.kt": {
+    "mtime": 1783546924.9069748,
+    "ast_hash": "a177c0cfce6ead9f3b951bafef7d0362",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/build.gradle.kts": {
+    "mtime": 1783546924.9077556,
+    "ast_hash": "0064c3722922bf632145e02d6d753974",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/gradlew": {
+    "mtime": 1783546924.9077556,
+    "ast_hash": "3dc2db225ac05b33e28459f044e362a1",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/settings.gradle.kts": {
+    "mtime": 1783546924.9077556,
+    "ast_hash": "ef7d99bb24cdb01e55d6be2051a5ef46",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/AppDatabase.kt": {
+    "mtime": 1783546924.9005497,
+    "ast_hash": "a8ea4264c524c8c17ae9b59b7e3f9261",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/AppModule.kt": {
+    "mtime": 1783546924.9005497,
+    "ast_hash": "e72969ab45d0b46cad73553debc6f99d",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/AudioRecordingService.kt": {
+    "mtime": 1783546924.9005497,
+    "ast_hash": "edaefd8a9c4e770a5e7a25b097861d53",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/CryptoManager.kt": {
+    "mtime": 1783546924.9005497,
+    "ast_hash": "dd76d5ba727cefe8e21d3360f37276b6",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/DatabaseModule.kt": {
+    "mtime": 1783546924.9015496,
+    "ast_hash": "294abba0e3bc9fbb6175501b71506abc",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/DetailScreen.kt": {
+    "mtime": 1783546924.9015496,
+    "ast_hash": "1beb2cfd07eea67d263dfddd1b24afc7",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/EncryptedDatabase.kt": {
+    "mtime": 1783546924.9015496,
+    "ast_hash": "64e4e432874481e26a50a794dfa0faa4",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/HomeScreen.kt": {
+    "mtime": 1783546924.9015496,
+    "ast_hash": "7f07f3f2d6249c4c340971736614472f",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/HomeViewModel.kt": {
+    "mtime": 1783546924.9015496,
+    "ast_hash": "0b6fbc02aa63bc5760b4c97910f7a8fd",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/OpenRouterRequest.kt": {
+    "mtime": 1783546924.9015496,
+    "ast_hash": "64d4fafedeb65c884fbde4aa64ff2d3a",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/OpenRouterResponse.kt": {
+    "mtime": 1783546924.9015496,
+    "ast_hash": "60ba1b731650f268f7640ae76ef0e618",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/RecordingScreen.kt": {
+    "mtime": 1783546924.9015496,
+    "ast_hash": "7ca7efe01d0bd448ebc6b8b02006377c",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/RecordingViewModel.kt": {
+    "mtime": 1783546924.9015496,
+    "ast_hash": "ab3d65a4df1578b2167665f703374b1c",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/SecurePrompts.kt": {
+    "mtime": 1783546924.9025495,
+    "ast_hash": "84fa79d9fb72b0f281f96b2e3be80550",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/SpeechTranscriptionEngine.kt": {
+    "mtime": 1783546924.9025495,
+    "ast_hash": "fdb46f00f820f61bae68e2f4f00a4d73",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/Theme.kt": {
+    "mtime": 1783546924.9025495,
+    "ast_hash": "5a735b789ca2c28c71e795a8d0923d57",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/TranscriptionWorker.kt": {
+    "mtime": 1783546924.9025495,
+    "ast_hash": "0b2c41363d0153d29f90830076ca51c5",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/WorkerUseCases.kt": {
+    "mtime": 1783546924.9025495,
+    "ast_hash": "8872d3339f85f76156979ce7e2f17d09",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/deepseek_kotlin_20260615_419d11.kt": {
+    "mtime": 1783546924.9015496,
+    "ast_hash": "4be2493b0aed33544822468c451789be",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/deepseek_kotlin_20260615_4c3220.kt": {
+    "mtime": 1783546924.9015496,
+    "ast_hash": "574d243913934db328e102c1ece8a0ca",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/deepseek_kotlin_20260615_95a13f.kt": {
+    "mtime": 1783546924.9015496,
+    "ast_hash": "a430b7c99f8db41966d723799de5b2b9",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/deepseek_kotlin_20260615_9b4f93.kt": {
+    "mtime": 1783546924.9015496,
+    "ast_hash": "0a37e937bb350e67a8dccd46f36ae63a",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/deepseek_kotlin_20260615_beda15.kt": {
+    "mtime": 1783546924.9015496,
+    "ast_hash": "97c68ba87718e4f41d827d1403c65aee",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/deepseek_kotlin_20260615_dca8ba.kt": {
+    "mtime": 1783546924.9015496,
+    "ast_hash": "26c4429a5c5008b02ef65604d3680b9b",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/deepseek_kotlin_20260615_e348a6.kt": {
+    "mtime": 1783546924.9015496,
+    "ast_hash": "2ec6cc2aa353a38456bf0f6c8a87a037",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/deepseek_kotlin_20260615_eb4297.kt": {
+    "mtime": 1783546924.9015496,
+    "ast_hash": "23ed565bb04d30bc5f5c839dd2705289",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-pruebas/deepseek_kotlin_20260615_2148e0.kt": {
+    "mtime": 1783546924.9095495,
+    "ast_hash": "710534b46a72960545dbb29438e89183",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-pruebas/deepseek_kotlin_20260615_2f1e19.kt": {
+    "mtime": 1783546924.9095495,
+    "ast_hash": "c5e2606d8afcd382c9232f18e8a67e8c",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-pruebas/deepseek_kotlin_20260615_419d11.kt": {
+    "mtime": 1783546924.9095495,
+    "ast_hash": "4be2493b0aed33544822468c451789be",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-pruebas/deepseek_kotlin_20260615_4c3220.kt": {
+    "mtime": 1783546924.9095495,
+    "ast_hash": "574d243913934db328e102c1ece8a0ca",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-pruebas/deepseek_kotlin_20260615_7508a6.kt": {
+    "mtime": 1783546924.9095495,
+    "ast_hash": "98fd133dfb7e203448c4663f1523fb4c",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-pruebas/deepseek_kotlin_20260615_94f9f6.kt": {
+    "mtime": 1783546924.9095495,
+    "ast_hash": "04abb512d1a0a6b6ac9e4f261789e45a",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-pruebas/deepseek_kotlin_20260615_95a13f.kt": {
+    "mtime": 1783546924.9095495,
+    "ast_hash": "a430b7c99f8db41966d723799de5b2b9",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-pruebas/deepseek_kotlin_20260615_9b4f93.kt": {
+    "mtime": 1783546924.9095495,
+    "ast_hash": "0a37e937bb350e67a8dccd46f36ae63a",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-pruebas/deepseek_kotlin_20260615_beda15.kt": {
+    "mtime": 1783546924.9095495,
+    "ast_hash": "97c68ba87718e4f41d827d1403c65aee",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-pruebas/deepseek_kotlin_20260615_dca8ba.kt": {
+    "mtime": 1783546924.9095495,
+    "ast_hash": "26c4429a5c5008b02ef65604d3680b9b",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-pruebas/deepseek_kotlin_20260615_e348a6.kt": {
+    "mtime": 1783546924.9095495,
+    "ast_hash": "2ec6cc2aa353a38456bf0f6c8a87a037",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-pruebas/deepseek_kotlin_20260615_eb4297.kt": {
+    "mtime": 1783546924.9095495,
+    "ast_hash": "23ed565bb04d30bc5f5c839dd2705289",
+    "semantic_hash": ""
+  },
+  "Proyectos/Lista de agenda/agenda_pomodoro.py": {
+    "mtime": 1783569781.7616413,
+    "ast_hash": "6e7ef348df6a1d24159b15db84485e4b",
+    "semantic_hash": ""
+  },
+  "Proyectos/Lista de agenda/launch-agenda-pomodoro.sh": {
+    "mtime": 1783569781.7656412,
+    "ast_hash": "d0342c96bbe92be6dd2e296dfbb5a02f",
+    "semantic_hash": ""
+  },
+  "Proyectos/Lista de agenda/progreso.json": {
+    "mtime": 1783569781.7666411,
+    "ast_hash": "db7eea73c770dd5faa106758cb5114b9",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/testing_and_automation/android-emulator-skill/scripts/app_launcher.py": {
+    "mtime": 1783546952.5503976,
+    "ast_hash": "99cc1dab09a5837914bf00cb23a56f4f",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/testing_and_automation/android-emulator-skill/scripts/build_and_test.py": {
+    "mtime": 1783546952.5503976,
+    "ast_hash": "6bc6f5be653b5e48e54ecd5683d915b1",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/testing_and_automation/android-emulator-skill/scripts/common.py": {
+    "mtime": 1783546952.5503976,
+    "ast_hash": "55f99c85eb59991a5bbe9f91862afc4b",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/testing_and_automation/android-emulator-skill/scripts/emu_health_check.ps1": {
+    "mtime": 1783546952.5503976,
+    "ast_hash": "4e0f520f19e7ecca9a7f7a096e8dea64",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/testing_and_automation/android-emulator-skill/scripts/emu_health_check.sh": {
+    "mtime": 1783546952.5503976,
+    "ast_hash": "4da135e0a80aa2347a82d9eefdc918b1",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/testing_and_automation/android-emulator-skill/scripts/emulator_manage.py": {
+    "mtime": 1783546952.5503976,
+    "ast_hash": "7d0276b0a6f69a93c027f98c48ba6cfe",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/testing_and_automation/android-emulator-skill/scripts/gesture.py": {
+    "mtime": 1783546952.5503976,
+    "ast_hash": "4cd7cc0cc4182d72090ef497fc03443d",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/testing_and_automation/android-emulator-skill/scripts/keyboard.py": {
+    "mtime": 1783546952.5503976,
+    "ast_hash": "112d6b5051528d87b15745992f5ea810",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/testing_and_automation/android-emulator-skill/scripts/log_monitor.py": {
+    "mtime": 1783546952.5503976,
+    "ast_hash": "307677c74bdc81d11e873d0be4d8c5dd",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/testing_and_automation/android-emulator-skill/scripts/navigator.py": {
+    "mtime": 1783546952.5503976,
+    "ast_hash": "cdfba80dae59986377e26e78f81beb69",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/testing_and_automation/android-emulator-skill/scripts/screen_mapper.py": {
+    "mtime": 1783546952.5503976,
+    "ast_hash": "16f133904e8fa1b396853d86eb1b9cd0",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/build.gradle.kts": {
+    "mtime": 1784303625.2002754,
+    "ast_hash": "4aed4f4056856d8ec02294c3987a919b",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/ClassNotesAIApplication.kt": {
+    "mtime": 1784303625.1832752,
+    "ast_hash": "36c08da4d99348e895d0a753947406cf",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/MainActivity.kt": {
+    "mtime": 1784303625.1832752,
+    "ast_hash": "0d77bd09f87fd876d0f2ac95394f1902",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/data/local/AppDatabase.kt": {
+    "mtime": 1784303625.1703188,
+    "ast_hash": "d48b064cd75483ec322f58ea194f3570",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/data/local/dao/RecordingDao.kt": {
+    "mtime": 1784303625.1703188,
+    "ast_hash": "c5b763a92ad5db3e89963269676c7ca0",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/data/local/dao/SubjectProfileDao.kt": {
+    "mtime": 1784303625.1703188,
+    "ast_hash": "865396fc16a92aaa7d702f622c577983",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/data/local/entity/Recording.kt": {
+    "mtime": 1784303625.1703188,
+    "ast_hash": "d1c83783b016dc714ab5537a7902719d",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/data/local/entity/SubjectProfile.kt": {
+    "mtime": 1784303625.1703188,
+    "ast_hash": "787efdfbf12e00df6e59d8f775013602",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/data/remote/NvidiaApi.kt": {
+    "mtime": 1784303625.1703188,
+    "ast_hash": "6fce3cb916046cb3f458a116370f66ae",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/data/remote/dto/NvidiaChatRequest.kt": {
+    "mtime": 1784303625.1703188,
+    "ast_hash": "a8cc57b48eb0d91b6b58b8d02c0a29a6",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/data/remote/dto/NvidiaChatResponse.kt": {
+    "mtime": 1784303625.1703188,
+    "ast_hash": "a9a8bf5a5f3a8a97420ff26fdfe64e6a",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/data/remote/dto/NvidiaModel.kt": {
+    "mtime": 1784303625.1703188,
+    "ast_hash": "46902368d65768e5a50c411e737c0ed9",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/data/repository/NvidiaRepository.kt": {
+    "mtime": 1784303625.1712751,
+    "ast_hash": "d9d8bee4a4ef78de4551ea01b93304f0",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/data/repository/RecordingRepository.kt": {
+    "mtime": 1784303625.1712751,
+    "ast_hash": "9bd746ef3c76bd6bae800d2c772b71ac",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/data/repository/SubjectRepository.kt": {
+    "mtime": 1784303625.1712751,
+    "ast_hash": "d10c39ed67e9bd646c49b7bb94fed779",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/di/AppModule.kt": {
+    "mtime": 1784303625.1712751,
+    "ast_hash": "f08d3f79a597ece072f54b504e99d412",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/service/RecordingService.kt": {
+    "mtime": 1784303625.1812754,
+    "ast_hash": "83d472aeb4ffaf6796edd58f7ad4099c",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/service/SpeechRecognitionHelper.kt": {
+    "mtime": 1784303625.1812754,
+    "ast_hash": "4c8e08bebbbf125175861b41a0bcf946",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/ui/components/MarkdownText.kt": {
+    "mtime": 1784303625.1812754,
+    "ast_hash": "b63a647ba0b8226c01e965fcad1de254",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/ui/navigation/NavGraph.kt": {
+    "mtime": 1784303625.1812754,
+    "ast_hash": "f136a3d6a0be7429dc15e3d74bce25d0",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/ui/screens/history/HistoryScreen.kt": {
+    "mtime": 1784303625.1812754,
+    "ast_hash": "ca32b35a1bcef028c4c5304b950195a2",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/ui/screens/history/HistoryViewModel.kt": {
+    "mtime": 1784303625.1822753,
+    "ast_hash": "1763b3555e502182faafa8f775526101",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/ui/screens/home/HomeScreen.kt": {
+    "mtime": 1784303625.1822753,
+    "ast_hash": "f41ed108866e61481b4b4fc13d6cd33e",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/ui/screens/home/HomeViewModel.kt": {
+    "mtime": 1784303625.1822753,
+    "ast_hash": "a5360d9a11d74603e208781a7d20f2f8",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/ui/screens/profile/ProfileScreen.kt": {
+    "mtime": 1784303625.1822753,
+    "ast_hash": "303cca802707f98ab90acc1dea77dc0a",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/ui/screens/profile/ProfileViewModel.kt": {
+    "mtime": 1784303625.1822753,
+    "ast_hash": "e11b1f8205f16766809cf32295beb162",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/ui/screens/recording/RecordingScreen.kt": {
+    "mtime": 1784303625.1822753,
+    "ast_hash": "9d6eb74c5a7d8c5bea83a79150adf268",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/ui/screens/recording/RecordingViewModel.kt": {
+    "mtime": 1784303625.1822753,
+    "ast_hash": "70ce71367850759e064b0be03e2c4cd5",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/ui/screens/settings/SettingsScreen.kt": {
+    "mtime": 1784303625.1822753,
+    "ast_hash": "b16f28bec2b744a2323d339fd7ee7e19",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/ui/screens/settings/SettingsViewModel.kt": {
+    "mtime": 1784303625.1822753,
+    "ast_hash": "b9cdf60c2195d3ba3928f0cf73add28c",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/ui/screens/summary/SummaryScreen.kt": {
+    "mtime": 1784303625.1822753,
+    "ast_hash": "e58ee8c44da04329ec7fd7b246e9a735",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/ui/screens/summary/SummaryViewModel.kt": {
+    "mtime": 1784303625.1822753,
+    "ast_hash": "ba55c87ff6798d473d8d03e961a69244",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/ui/theme/Color.kt": {
+    "mtime": 1784303625.1822753,
+    "ast_hash": "fe33f47dbcc9149d998944ca24a3e7da",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/ui/theme/Theme.kt": {
+    "mtime": 1784303625.1822753,
+    "ast_hash": "6aed25ef0d265ab4c9fbfdb49c1948fa",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/ui/theme/Type.kt": {
+    "mtime": 1784303625.1822753,
+    "ast_hash": "8a7963bda4be54b0a1578150d6695c37",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/util/MarkdownExporter.kt": {
+    "mtime": 1784303625.1822753,
+    "ast_hash": "805606fcc9d73cd4360084e6a2fdb735",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/util/Resource.kt": {
+    "mtime": 1784303625.1822753,
+    "ast_hash": "003f6fb31def5e014a77b478130b4918",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/app/src/main/java/com/classnotes/ai/worker/SummaryWorker.kt": {
+    "mtime": 1784303625.1832752,
+    "ast_hash": "4d3414130b5e2fc1ab8bd9a5dfbc484d",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/build.gradle.kts": {
+    "mtime": 1784303625.2002754,
+    "ast_hash": "065e730eff7b8f0a69e89ab0d6f143cc",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/gradlew": {
+    "mtime": 1784303625.2012756,
+    "ast_hash": "d265b8491acbeaf07214414c6c41a21c",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/settings.gradle.kts": {
+    "mtime": 1784303625.2172756,
+    "ast_hash": "1c8b51700f1d896de5945b875450848a",
+    "semantic_hash": ""
+  },
+  "Proyectos/Rescrip/rescrip.py": {
+    "mtime": 1782435006.0,
+    "ast_hash": "31bad737c3f1bad5fd23f6805c809ac6",
+    "semantic_hash": ""
+  },
+  "Proyectos/TFG-Kendall-IA-Medica/generar_tfg.py": {
+    "mtime": 1784301187.935419,
+    "ast_hash": "9e586371c5c6b6f50908ba1ff0ed2941",
+    "semantic_hash": ""
+  },
+  "Proyectos/TFG-Kendall-IA-Medica/tfg_pipeline.py": {
+    "mtime": 1784321974.815941,
+    "ast_hash": "2f4f4c98bb9fcecb176f5f95c498f14e",
+    "semantic_hash": ""
+  },
+  "Proyectos/chat-resumidor/chat_resumidor.py": {
+    "mtime": 1783546929.9095554,
+    "ast_hash": "d774b6e6f5824e592b8c0163a00156dd",
+    "semantic_hash": ""
+  },
+  "Proyectos/chat-resumidor/setup.py": {
+    "mtime": 1783546929.9095554,
+    "ast_hash": "1f9a4eeb89f8f8e53df4c7adc4d7c7c4",
+    "semantic_hash": ""
+  },
+  "scripts/demo_taller/script.js": {
+    "mtime": 1785615986.270465,
+    "ast_hash": "6fd8b74d844b47e13af5402dee624d4e",
+    "semantic_hash": ""
+  },
+  "scripts/install-backup.sh": {
+    "mtime": 1784321650.211575,
+    "ast_hash": "7fd47184c77482b49e753acf0ccf276b",
+    "semantic_hash": ""
+  },
+  "scripts/maps_scraper.js": {
+    "mtime": 1785614444.5726616,
+    "ast_hash": "a4f280b363b6df16d3318e2ecc42942f",
+    "semantic_hash": ""
+  },
+  "scripts/vault-backup.sh": {
+    "mtime": 1784321638.2166295,
+    "ast_hash": "6798eb69b09455b634ccd5dc70964fc3",
+    "semantic_hash": ""
+  },
+  "Arreglos/auditorias/auditoria-2026-07-31.md": {
+    "mtime": 1785555152.7961366,
+    "ast_hash": "22c78157ef87b2dd506d099c26a3c8a9",
+    "semantic_hash": ""
+  },
+  "Arreglos/auditorias/auditoria-2026-08-01.md": {
+    "mtime": 1785614034.4327128,
+    "ast_hash": "1c89d908e14ee7e0c3078822f440c16f",
+    "semantic_hash": ""
+  },
+  "Arreglos/glosario-arreglos.md": {
+    "mtime": 1783562713.0288177,
+    "ast_hash": "3fe170a38a5b25cd81f5831f60a9a35c",
+    "semantic_hash": ""
+  },
+  "Estudio/Materias/2026-06-13_estequiometria-unidades-concentracion-quimica.md": {
+    "mtime": 1783562273.5601416,
+    "ast_hash": "2ca924b14430fddeca9849677b2709a5",
+    "semantic_hash": ""
+  },
+  "Estudio/Materias/index-Pruebas.md": {
+    "mtime": 1783562248.588076,
+    "ast_hash": "919d1d66dd4882e155ac4212967d64c8",
+    "semantic_hash": ""
+  },
+  "Estudio/Materias/ingles.md": {
+    "mtime": 1783562215.7899969,
+    "ast_hash": "de49ba18b2db69f26120ef96e68065bb",
+    "semantic_hash": ""
+  },
+  "Estudio/Practicas_de_examen/PDFs_en_markdown/_resumenes.md": {
+    "mtime": 1783562488.4738557,
+    "ast_hash": "4c62c5cc228e883b440ffd3e0daf629e",
+    "semantic_hash": ""
+  },
+  "Estudio/Practicas_de_examen/Practica examen de biologia.html": {
+    "mtime": 1781842180.0,
+    "ast_hash": "87151bf4f41d51353aeb47d125c31002",
+    "semantic_hash": ""
+  },
+  "Estudio/Practicas_de_examen/Practica examen de fisica.html": {
+    "mtime": 1781842419.0,
+    "ast_hash": "c4449a24ee6a82b42cbe7d1e9f82c8a7",
+    "semantic_hash": ""
+  },
+  "Estudio/Practicas_de_examen/Practica examen de mate.html": {
+    "mtime": 1781842958.0,
+    "ast_hash": "ec7b7f596ae61f2800f1e983b362380c",
+    "semantic_hash": ""
+  },
+  "Estudio/Practicas_de_examen/Practica examen de sociales.html": {
+    "mtime": 1781842340.0,
+    "ast_hash": "0c1177e48ab6706d8b3f5ba4ef931701",
+    "semantic_hash": ""
+  },
+  "Fallas/_index.md": {
+    "mtime": 1784519039.854996,
+    "ast_hash": "c021a9b60a4c20ea4170c81d50ffd142",
+    "semantic_hash": ""
+  },
+  "Fallas/auditoria-seguridad-2026-07-15.md": {
+    "mtime": 1784261929.5841465,
+    "ast_hash": "3ab1a9fdc119a34511a6f256eda95edb",
+    "semantic_hash": ""
+  },
+  "Fallas/gtx-1050-ti-error43-2026-07-18.md": {
+    "mtime": 1784481925.8991268,
+    "ast_hash": "96ca27a1b7b341240805f7a448166199",
+    "semantic_hash": ""
+  },
+  "Fallas/sesion-actual-completa-2026-07-19.md": {
+    "mtime": 1784519031.8510973,
+    "ast_hash": "52b910a83f1a4f20140dd1891408331d",
+    "semantic_hash": ""
+  },
+  "Guia-Paginas-Web-Profesionales-Gratis.md": {
+    "mtime": 1785614469.0200176,
+    "ast_hash": "250fcac5c3bd9f365e01f0d8109c9e44",
+    "semantic_hash": ""
+  },
+  "Ideas/Plan_de_Automatizaci\u00f3n_de_Obsidian.md": {
+    "mtime": 1784300599.2849698,
+    "ast_hash": "c1bc106a2b13808913f3ee5eb36d8f5a",
+    "semantic_hash": ""
+  },
+  "Ideas/_index.md": {
+    "mtime": 1783654678.1632018,
+    "ast_hash": "c4807e1b388917a1bbad3808d4d0ae8b",
+    "semantic_hash": ""
+  },
+  "Ideas/free-subdominios-via-pr.md": {
+    "mtime": 1783654674.9461994,
+    "ast_hash": "ab43d9d0a10173e4a1fcb9618bf15607",
+    "semantic_hash": ""
+  },
+  "Ideas/lluvia_de_ideas.md": {
+    "mtime": 1783565253.7257757,
+    "ast_hash": "ffdd3334d6008008811724b55d285d24",
+    "semantic_hash": ""
+  },
+  "Ideas/obsidian-auto/Automatizaci\u00f3n de Plantillas.md": {
+    "mtime": 1784300620.4392016,
+    "ast_hash": "0e25e8d08f95f745a7b56f48a34b53ae",
+    "semantic_hash": ""
+  },
+  "Ideas/obsidian-auto/Backup y Snapshots.md": {
+    "mtime": 1784300602.332003,
+    "ast_hash": "f3f35d7c19dc6409c64807a49c6fae21",
+    "semantic_hash": ""
+  },
+  "Ideas/obsidian-auto/Cron Job Diario.md": {
+    "mtime": 1784300607.2140567,
+    "ast_hash": "aaf38d9d1a9c3583af6233f5fe9e60df",
+    "semantic_hash": ""
+  },
+  "Ideas/obsidian-auto/Registro de Cambios de Metadatos.md": {
+    "mtime": 1784300615.4221466,
+    "ast_hash": "eb1a079bf64a2a25e16b26433047230b",
+    "semantic_hash": ""
+  },
+  "Ideas/obsidian-auto/Sincronizaci\u00f3n con Google Drive (rclone).md": {
+    "mtime": 1784300610.7250953,
+    "ast_hash": "3fe030bd51b0ecba28d31fb7afab042e",
+    "semantic_hash": ""
+  },
+  "Ideas/obsidian-auto/_index.md": {
+    "mtime": 1784300749.8576195,
+    "ast_hash": "9ddf3f2cde734eee526b217ae6c80ac2",
+    "semantic_hash": ""
+  },
+  "Ideas/plan_proyectos.md": {
+    "mtime": 1784325258.752131,
+    "ast_hash": "f56be8518d0609bbaf551e7954d30964",
+    "semantic_hash": ""
+  },
+  "Ideas/sesion-2026-07-15.md": {
+    "mtime": 1784175654.610179,
+    "ast_hash": "c4a849896c188dbed9b75f465f8324b5",
+    "semantic_hash": ""
+  },
+  "Ideas/sesion-2026-07-16.md": {
+    "mtime": 1784263409.0425782,
+    "ast_hash": "383a68f6a7a96acf2aff660685b26523",
+    "semantic_hash": ""
+  },
+  "Ideas/sesion-2026-07-17-resumen-completo.md": {
+    "mtime": 1784321439.244986,
+    "ast_hash": "875f776e6679759363a915884d3edd87",
+    "semantic_hash": ""
+  },
+  "Ideas/sesion-2026-07-17.md": {
+    "mtime": 1784300444.575275,
+    "ast_hash": "11deacab15f096730fcaa1b0d5856199",
+    "semantic_hash": ""
+  },
+  "Ideas/sesion-2026-07-22-plan-windows-dashboard.md": {
+    "mtime": 1784781348.9490123,
+    "ast_hash": "eda95114b7d77f668c5e69a729a860e2",
+    "semantic_hash": ""
+  },
+  "Ideas/sesion-2026-07-22.md": {
+    "mtime": 1784774538.8074484,
+    "ast_hash": "4d1e298df5fe671165f9879b19bf3e7e",
+    "semantic_hash": ""
+  },
+  "Ideas/sesion-2026-07-31.md": {
+    "mtime": 1785613485.7097147,
+    "ast_hash": "d4774940365192b70a01d8bf0e705ab3",
+    "semantic_hash": ""
+  },
+  "Ideas/sesion-2026-08-01-openclaw-correos.md": {
+    "mtime": 1785615004.7247226,
+    "ast_hash": "e2a1d150689713cd44cd758802df1ab8",
+    "semantic_hash": ""
+  },
+  "Ideas/sesion-2026-08-01.md": {
+    "mtime": 1785616482.3197339,
+    "ast_hash": "f1942551e4a5b439e1f04518d987f481",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/BUGS_Y_PLAN.md": {
+    "mtime": 1784319428.2640564,
+    "ast_hash": "092e616df49077d3290d97d948d532fa",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/JARVIS.md": {
+    "mtime": 1784319359.7439747,
+    "ast_hash": "c39020ac391ae6432d8da856cdaabffd",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/JARVIS_bug_wake_word.md": {
+    "mtime": 1783562932.7706628,
+    "ast_hash": "e9bda719c6d190f1aa3f17c20a2bc073",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/PLAN.md": {
+    "mtime": 1784319428.2600565,
+    "ast_hash": "669db98cdaebea1064c81dbe271ee0f5",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/PLUGINS.md": {
+    "mtime": 1784303011.5828223,
+    "ast_hash": "f83941a4421d93db7beffa5bef360b4e",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/README.docker.md": {
+    "mtime": 1784303021.9186943,
+    "ast_hash": "cc761219b0f85bade58d607f32483313",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/README.md": {
+    "mtime": 1783563126.4991791,
+    "ast_hash": "b782bea96e69b5476ccc9239a9bb16b6",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/docker-compose.yml": {
+    "mtime": 1784303004.5109105,
+    "ast_hash": "8cdf1242340fcec2d1d4c5f699554298",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/requirements.txt": {
+    "mtime": 1784321892.7879722,
+    "ast_hash": "7321166f98daaff0365e09ac10fe1455",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/jarvis-master.skill.md": {
+    "mtime": 1783562958.7842605,
+    "ast_hash": "bebf309d79593898631cd9bf3093a6c6",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/skills/plugins/README.md": {
+    "mtime": 1784304174.4288833,
+    "ast_hash": "e78266cad15bb6aad7a192b8f639329c",
+    "semantic_hash": ""
+  },
+  "PROYECTOS ARREGLO/JARVIS/webui/templates/index.html": {
+    "mtime": 1784303456.6109934,
+    "ast_hash": "f2248c2a563c1454411f1667008a11f5",
+    "semantic_hash": ""
+  },
+  "PROYECTOS.md": {
+    "mtime": 1783561318.2197871,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "Principal.md": {
+    "mtime": 1783569444.014696,
+    "ast_hash": "156d32d85bd71726455a13bc58f1bc7a",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/ClassNotes-AI.md": {
+    "mtime": 1783567101.9775703,
+    "ast_hash": "02a8f8b9340522a47a2a3bf682bce74e",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/INSTRUCCIONES_CLASSNOTES.md": {
+    "mtime": 1783567119.7215548,
+    "ast_hash": "5b3cc62eed96f9f1de11b71366fd685e",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/BASH de noteclass.md": {
+    "mtime": 1783567171.3065157,
+    "ast_hash": "d4165fb57fd581f9b8755721d0301156",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotes AI.md": {
+    "mtime": 1783567142.916536,
+    "ast_hash": "2455a19c408e8549b39f8e2086dcb787",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI/README.md": {
+    "mtime": 1783564303.079405,
+    "ast_hash": "e600f4c699e87f4abee49efb23313495",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/ClassNotesAI_fixes.md": {
+    "mtime": 1783567155.1035268,
+    "ast_hash": "5b5fd35e1e4f724b34f7b1408a8aefec",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-docs/Plan de Desarrollo.md": {
+    "mtime": 1783567162.6315215,
+    "ast_hash": "8a5709ae167c9ae07b9f18a776211c64",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/LEEME.md": {
+    "mtime": 1783567181.9345086,
+    "ast_hash": "fc440ea0e9c8d71edbcd657223722a74",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-fixed/deepseek_html_20260615_165643.html": {
+    "mtime": 1783546924.9015496,
+    "ast_hash": "31440984656ddfe5f527bdde224b280d",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes-pruebas/deepseek_html_20260615_165643.html": {
+    "mtime": 1783546924.9085495,
+    "ast_hash": "31440984656ddfe5f527bdde224b280d",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/classnotes_ai_prompt_opencode.md": {
+    "mtime": 1783567125.6255498,
+    "ast_hash": "621841a01cfc7106743f1513e8174e69",
+    "semantic_hash": ""
+  },
+  "Proyectos/ClassNotes-AI/proyecto CLASSNOTES.md": {
+    "mtime": 1783567113.9065597,
+    "ast_hash": "d0f6e72e51d508a2209d7185fdd46f63",
+    "semantic_hash": ""
+  },
+  "Proyectos/Computer Use MCP.md": {
+    "mtime": 1784173641.281485,
+    "ast_hash": "6ba3f5e51594fc579c2925501bec10c7",
+    "semantic_hash": ""
+  },
+  "Proyectos/Lista de agenda/Lista de agenda.md": {
+    "mtime": 1783569790.4036415,
+    "ast_hash": "b39ef72abf53f74caea8b10cf12dc394",
+    "semantic_hash": ""
+  },
+  "Proyectos/Lista de agenda/requirements.txt": {
+    "mtime": 1783569781.7676413,
+    "ast_hash": "decea2c75f31d8d9e88a5fc99d3e355f",
+    "semantic_hash": ""
+  },
+  "Proyectos/NegocioWeb/NegocioWeb.md": {
+    "mtime": 1785620696.571275,
+    "ast_hash": "f452a76e344162544041d9f13bc3668a",
+    "semantic_hash": ""
+  },
+  "Proyectos/NegocioWeb/demos/_index.md": {
+    "mtime": 1785628344.022392,
+    "ast_hash": "fa5514cfb9eb8ec77af868e70e065111",
+    "semantic_hash": ""
+  },
+  "Proyectos/NegocioWeb/demos/_perfil-template.md": {
+    "mtime": 1785619811.6702209,
+    "ast_hash": "028840002876f17b8c8e37e334b63acb",
+    "semantic_hash": ""
+  },
+  "Proyectos/NegocioWeb/demos/alex-cr/perfil.md": {
+    "mtime": 1785626870.744088,
+    "ast_hash": "e4e03d4355c4ca7dfb95fa750158d031",
+    "semantic_hash": ""
+  },
+  "Proyectos/NegocioWeb/demos/brasas-parrillero/perfil.md": {
+    "mtime": 1785628216.836151,
+    "ast_hash": "8faa1fd429ed598fd1a688fb82e412c9",
+    "semantic_hash": ""
+  },
+  "Proyectos/NegocioWeb/demos/express-la-tejita/perfil.md": {
+    "mtime": 1785627898.6534424,
+    "ast_hash": "cb44bb6be0a9d2b2e354e78c8a034737",
+    "semantic_hash": ""
+  },
+  "Proyectos/NegocioWeb/demos/furca/perfil.md": {
+    "mtime": 1785625924.4298196,
+    "ast_hash": "9d7ff3ab7216a7d0f2a7227710fa681a",
+    "semantic_hash": ""
+  },
+  "Proyectos/NegocioWeb/demos/high-revolution/perfil.md": {
+    "mtime": 1785626777.4590442,
+    "ast_hash": "fa0773df6157290cdbad248d1ca5e039",
+    "semantic_hash": ""
+  },
+  "Proyectos/NegocioWeb/demos/juanchos-tejar/perfil.md": {
+    "mtime": 1785628569.1257806,
+    "ast_hash": "71d891c13f73c1e42ac4ea66a88dae1c",
+    "semantic_hash": ""
+  },
+  "Proyectos/NegocioWeb/demos/mecanico-express/perfil.md": {
+    "mtime": 1785624914.7310529,
+    "ast_hash": "0316befe86c0f270f6c3c36f30dde956",
+    "semantic_hash": ""
+  },
+  "Proyectos/NegocioWeb/demos/taller-mym/perfil.md": {
+    "mtime": 1785619952.159981,
+    "ast_hash": "b9a317c241551181734a17a88c7ae629",
+    "semantic_hash": ""
+  },
+  "Proyectos/NegocioWeb/leads_batch2_whatsapp.md": {
+    "mtime": 1785626598.9009671,
+    "ast_hash": "a43ee05299d9966c6607053fafae051c",
+    "semantic_hash": ""
+  },
+  "Proyectos/NegocioWeb/plan-completo.md": {
+    "mtime": 1785616893.5569324,
+    "ast_hash": "ff6ff018171bb002f932892bc54308e5",
+    "semantic_hash": ""
+  },
+  "Proyectos/NegocioWeb/plantillas/contrato-minimo.md": {
+    "mtime": 1785616906.1892264,
+    "ast_hash": "392f80271b21796cb084a6160d4238e6",
+    "semantic_hash": ""
+  },
+  "Proyectos/NegocioWeb/plantillas/mensajes-y-guion.md": {
+    "mtime": 1785620687.6162682,
+    "ast_hash": "be2cce04ef644471187f3b75dbe09852",
+    "semantic_hash": ""
+  },
+  "Proyectos/OpenClaw/OpenClaw-Findings.md": {
+    "mtime": 1784261259.6146855,
+    "ast_hash": "878adacc86865a0427640a5d497567e7",
+    "semantic_hash": ""
+  },
+  "Proyectos/OpenClaw/OpenClaw-Resumen.md": {
+    "mtime": 1783567080.6685903,
+    "ast_hash": "9bd6840d04c06a87cebbedaba585af53",
+    "semantic_hash": ""
+  },
+  "Proyectos/OpenClaw/OpenClaw.md": {
+    "mtime": 1784261259.6087017,
+    "ast_hash": "15423b63fa13b77baaea69afb301f6b1",
+    "semantic_hash": ""
+  },
+  "Proyectos/OpenClawReplacement/ADRs/ADR-001-provider.md": {
+    "mtime": 1784300580.029759,
+    "ast_hash": "04d7dde7eca8990d40d94bb2c86371e7",
+    "semantic_hash": ""
+  },
+  "Proyectos/OpenClawReplacement/ADRs/ADR-002-protocolo.md": {
+    "mtime": 1784300588.4228508,
+    "ast_hash": "bc90ac7de7ea70ba1dcf6fa6d685fa51",
+    "semantic_hash": ""
+  },
+  "Proyectos/OpenClawReplacement/OpenClawReplacement.md": {
+    "mtime": 1784300572.287674,
+    "ast_hash": "ce6542a1a97777a800e79fc67ff43801",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/android-development/SKILL.md": {
+    "mtime": 1783546952.5489886,
+    "ast_hash": "50808f8c532f67e656540b357a6f8771",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/android-development/references/architecture.md": {
+    "mtime": 1783546952.5489886,
+    "ast_hash": "badab8a52c7378630bd89770820a186a",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/android-development/references/compose-patterns.md": {
+    "mtime": 1783546952.5489886,
+    "ast_hash": "b9a661852edfb31b5a2fc18eaecdac5b",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/android-development/references/gradle-setup.md": {
+    "mtime": 1783546952.5489886,
+    "ast_hash": "620177b9c3ce5972bf36f45077fa0bae",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/android-development/references/modularization.md": {
+    "mtime": 1783546952.5489886,
+    "ast_hash": "443e1483548a1091508a3d1c8e2846fd",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/android-development/references/testing.md": {
+    "mtime": 1783546952.5489886,
+    "ast_hash": "a1829f338cd4384a31c6338ef9b9d041",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/architecture/android-architecture/SKILL.md": {
+    "mtime": 1783546952.54932,
+    "ast_hash": "11a19a65741c5709a74c9b18250c4276",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/architecture/android-data-layer/SKILL.md": {
+    "mtime": 1783546952.5494304,
+    "ast_hash": "8ecfccb3b24941296909a731b693f872",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/architecture/android-viewmodel/SKILL.md": {
+    "mtime": 1783546952.5495136,
+    "ast_hash": "8bfa97236920245ba7f88d0facc6c849",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/build_and_tooling/android-gradle-logic/SKILL.md": {
+    "mtime": 1783546952.5495846,
+    "ast_hash": "9dc382b0baabb62e8b7b82519f9095eb",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/concurrency_and_networking/android-coroutines/SKILL.md": {
+    "mtime": 1783546952.5497172,
+    "ast_hash": "3ac69b7d2b82de437358f84379e77504",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/concurrency_and_networking/android-retrofit/SKILL.md": {
+    "mtime": 1783546952.5498312,
+    "ast_hash": "078c31ee44e59d0a0ca94d39b94088ef",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/concurrency_and_networking/kotlin-concurrency-expert/SKILL.md": {
+    "mtime": 1783546952.5499237,
+    "ast_hash": "3f684d95ddfa0919cc5ee2dd1427bb11",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/migration/rxjava-to-coroutines-migration/SKILL.md": {
+    "mtime": 1783546952.550001,
+    "ast_hash": "d1b68c427ac3ec50d59d8a1e646e063c",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/migration/xml-to-compose-migration/SKILL.md": {
+    "mtime": 1783546952.5500996,
+    "ast_hash": "c9e9bdc543e76f13c2a9faed9450719b",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/performance/compose-performance-audit/SKILL.md": {
+    "mtime": 1783546952.5501628,
+    "ast_hash": "0682e932c53af208f194d19ea0f0e257",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/performance/gradle-build-performance/SKILL.md": {
+    "mtime": 1783546952.5502524,
+    "ast_hash": "d47200410ec2168d4ab63c917b4cd2fa",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/testing_and_automation/android-emulator-skill/SKILL.md": {
+    "mtime": 1783546952.5503976,
+    "ast_hash": "cff621fc5ac6726921dab403bf16fdb6",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/testing_and_automation/android-testing/SKILL.md": {
+    "mtime": 1783546952.5509186,
+    "ast_hash": "280453ddaa38d36d51d8007abfa047d2",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/ui/android-accessibility/SKILL.md": {
+    "mtime": 1783546952.551011,
+    "ast_hash": "9a733146786d07824e11a361a5ec2824",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/ui/coil-compose/SKILL.md": {
+    "mtime": 1783546952.5512066,
+    "ast_hash": "45874f1410ef0333e1e37a59024ab2f6",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/ui/compose-navigation/SKILL.md": {
+    "mtime": 1783546952.5513134,
+    "ast_hash": "45b8c31ea62d297f835987e7826d91fd",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/.claude/skills/ui/compose-ui/SKILL.md": {
+    "mtime": 1783546952.5513816,
+    "ast_hash": "f4352037023495ec0061ca0ed9e22730",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/Remember.md": {
+    "mtime": 1783570099.094684,
+    "ast_hash": "15a0394888219c4894d336d50cbd6640",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/Remember.spec.md": {
+    "mtime": 1784319297.7300158,
+    "ast_hash": "37cfc241ff628ef466e1340d01667d42",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/connection_log.md": {
+    "mtime": 1784303625.2002754,
+    "ast_hash": "70030136f554e179d0d3b2ba0eda24d9",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/reportes/_reportes.md": {
+    "mtime": 1784303625.2012756,
+    "ast_hash": "0607d0919e1c7ecd8d6e225014b61be8",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/reportes/connection_log.md": {
+    "mtime": 1784303625.2012756,
+    "ast_hash": "3a0b248ba65d7c9c9046798ca43d6cda",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/reportes/fase1-deletes-puros.md": {
+    "mtime": 1784303625.2012756,
+    "ast_hash": "3260864940b55560ed1afaaa9f17bc7a",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/reportes/fase10-connection-log.md": {
+    "mtime": 1784303625.2012756,
+    "ast_hash": "176f43606d886d281b6fb13e7efe1be2",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/reportes/fase2-companion-database.md": {
+    "mtime": 1784303625.2072756,
+    "ast_hash": "560d32b473ca28621feb317ef035c51b",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/reportes/fase3-typography-shrink.md": {
+    "mtime": 1784303625.2072756,
+    "ast_hash": "4066f09feaef07eefbbc9472826e35a3",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/reportes/fase4-subjectprofile-dao.md": {
+    "mtime": 1784303625.2072756,
+    "ast_hash": "7056ee4daf692fcf73b62917277902ad",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/reportes/fase5-proguard.md": {
+    "mtime": 1784303625.2072756,
+    "ast_hash": "aa6372fc938cfb0469a0f0f8c4d7b9ab",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/reportes/fase6-network-config.md": {
+    "mtime": 1784303625.2162757,
+    "ast_hash": "45f469cb8d2c3d43d704bf05950b7d2f",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/reportes/fase7-storageutil.md": {
+    "mtime": 1784303625.2162757,
+    "ast_hash": "eb453d5f3505f92d9b04b4992a0bd715",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/reportes/fase8-colors-xml.md": {
+    "mtime": 1784303625.2162757,
+    "ast_hash": "53355838d10263bdb33a9e61f352a821",
+    "semantic_hash": ""
+  },
+  "Proyectos/Remember/reportes/fase9-planning-docs.md": {
+    "mtime": 1784303625.2162757,
+    "ast_hash": "623167a60f91cee44b629e26d6bf4e18",
+    "semantic_hash": ""
+  },
+  "Proyectos/Rescrip/PDFs_en_markdown/Temas   II Prueba de avance F\u00edsica 11-1 (2).md": {
+    "mtime": 1782434858.0,
+    "ast_hash": "aba2b7df37dce87e2ee81209778ef16e",
+    "semantic_hash": ""
+  },
+  "Proyectos/Rescrip/README.md": {
+    "mtime": 1782432537.0,
+    "ast_hash": "3a7e0a22387fe8b1347fba2c65c0340b",
+    "semantic_hash": ""
+  },
+  "Proyectos/Rescrip/Rescrip.md": {
+    "mtime": 1783570915.9789658,
+    "ast_hash": "1d81ab24fa79cadcbedfef1219522f02",
+    "semantic_hash": ""
+  },
+  "Proyectos/Rescrip/_proyecto.md": {
+    "mtime": 1783570924.591963,
+    "ast_hash": "33a77e1cf9042dadb45b0eac646d1bc2",
+    "semantic_hash": ""
+  },
+  "Proyectos/Skills-claude/Skills-claude.md": {
+    "mtime": 1784300599.934977,
+    "ast_hash": "da9cf5d70dfb88afbeb4626ff8b27080",
+    "semantic_hash": ""
+  },
+  "Proyectos/TFG-Kendall-IA-Medica/TFG-Kendall.md": {
+    "mtime": 1784300998.9713488,
+    "ast_hash": "193168b11a89492260a06419f5531fd4",
+    "semantic_hash": ""
+  },
+  "Proyectos/TFG-Kendall-IA-Medica/TFG-Kendall.spec.md": {
+    "mtime": 1784304431.8537414,
+    "ast_hash": "b301d378db466ed0e8b7a3b5be309fcf",
+    "semantic_hash": ""
+  },
+  "Proyectos/TFG-Kendall-IA-Medica/fuentes/Apendice_A_Propuesta_TFG.md": {
+    "mtime": 1784003722.5804043,
+    "ast_hash": "5adc7d1360b8297956aed6a7cce19150",
+    "semantic_hash": ""
+  },
+  "Proyectos/TFG-Kendall-IA-Medica/instrucciones_opencode_tesis.md": {
+    "mtime": 1784300969.427025,
+    "ast_hash": "84e93b1098a4bbaba1b04b5b9825d140",
+    "semantic_hash": ""
+  },
+  "Proyectos/TelegramAssistant/ADRs/ADR-001-bot-framework.md": {
+    "mtime": 1784300544.5843706,
+    "ast_hash": "5feee5b2023142c68e6006f5459ea9c0",
+    "semantic_hash": ""
+  },
+  "Proyectos/TelegramAssistant/ADRs/ADR-002-comunicacion-jarvis.md": {
+    "mtime": 1784300554.3704777,
+    "ast_hash": "b78ba18747571fa4b193bd715ef47fb1",
+    "semantic_hash": ""
+  },
+  "Proyectos/TelegramAssistant/TelegramAssistant.md": {
+    "mtime": 1784300534.6252615,
+    "ast_hash": "8384dd5ea81237ffc160bfb7b6b71d51",
+    "semantic_hash": ""
+  },
+  "Proyectos/VARIOS.md": {
+    "mtime": 1783567385.5054355,
+    "ast_hash": "99b0b7fc1e35ca85b483c620cc7eb311",
+    "semantic_hash": ""
+  },
+  "Proyectos/autoview/autoview-dashboard.md": {
+    "mtime": 1783653077.680446,
+    "ast_hash": "b0d0565567ec4d618eb9c8806b5ae0d0",
+    "semantic_hash": ""
+  },
+  "Proyectos/autoview/autoview.md": {
+    "mtime": 1784262468.1322792,
+    "ast_hash": "536979edfd71a9eb0e331ea2a11e8a15",
+    "semantic_hash": ""
+  },
+  "Proyectos/chat-resumidor/_proyecto.md": {
+    "mtime": 1783565332.1705983,
+    "ast_hash": "8395e3ccd25618636b900dc2038c1b1b",
+    "semantic_hash": ""
+  },
+  "Proyectos/chat-resumidor/chat-resumidor.md": {
+    "mtime": 1784300662.826666,
+    "ast_hash": "cc0e9f1b4939f81ca8244b2e5e9f868e",
+    "semantic_hash": ""
+  },
+  "Proyectos/chat-resumidor/requirements.txt": {
+    "mtime": 1783546929.9095554,
+    "ast_hash": "35675aa7e764892810c6cee706ad1e63",
+    "semantic_hash": ""
+  },
+  "Proyectos/chat-resumidor/setup.py.txt": {
+    "mtime": 1783546929.9095554,
+    "ast_hash": "771a556b70cd482ad6b91cef178654a5",
+    "semantic_hash": ""
+  },
+  "Proyectos/ivLyrics-extension/IDEA_LYRICS.md": {
+    "mtime": 1783569026.262054,
+    "ast_hash": "72d95cd29e94d8d52cbf29e11bb17e80",
+    "semantic_hash": ""
+  },
+  "Proyectos/ivLyrics-extension/ivLyrics extension.md": {
+    "mtime": 1783568940.4881947,
+    "ast_hash": "10598aaefef5831a4598e554f734b148",
+    "semantic_hash": ""
+  },
+  "Proyectos/obsidian-dashboard/obsidian-dashboard.md": {
+    "mtime": 1784299228.117947,
+    "ast_hash": "542f6f010906fef54dd4636ba8ac858b",
+    "semantic_hash": ""
+  },
+  "Proyectos/onenote-sync/ADRs/ADR-001-auth-flow.md": {
+    "mtime": 1784300568.4746323,
+    "ast_hash": "36ed6dc653555bcf9a867e24f8faa582",
+    "semantic_hash": ""
+  },
+  "Proyectos/onenote-sync/onenote-sync.md": {
+    "mtime": 1784300555.2874877,
+    "ast_hash": "496a20ebbe802e0d6fdbfcd3c55fcac3",
+    "semantic_hash": ""
+  },
+  "Proyectos/school-api/school-api.md": {
+    "mtime": 1784299218.2898395,
+    "ast_hash": "2a2563ee9aaece4f1c821ab031530e4a",
+    "semantic_hash": ""
+  },
+  "Proyectos/webui-unificada/webui-unificada.md": {
+    "mtime": 1784329465.1527293,
+    "ast_hash": "21989eb4451eff408588cb2fb62d2ee1",
+    "semantic_hash": ""
+  },
+  "Proyectos/workspace-ssd/workspace-ssd.md": {
+    "mtime": 1784263934.3455868,
+    "ast_hash": "3f6ead99780076ebb3bd59c6e1fed42b",
+    "semantic_hash": ""
+  },
+  "SKILLS.md": {
+    "mtime": 1783560589.241188,
+    "ast_hash": "fd3cda33cae64fee59b3e8b0f3ed577f",
+    "semantic_hash": ""
+  },
+  "fs-index/autoview-detalle.md": {
+    "mtime": 1783647977.5573194,
+    "ast_hash": "6e7b2141f9afb8967d7c9160b286c3fb",
+    "semantic_hash": ""
+  },
+  "fs-index/filesystem-map.md": {
+    "mtime": 1783648828.482258,
+    "ast_hash": "56ceff6d26f913d5216919092bb0ff69",
+    "semantic_hash": ""
+  },
+  "fs-index/opencode-skills-detalle.md": {
+    "mtime": 1783647971.5593057,
+    "ast_hash": "a54a452419cfac392c8f23f145918482",
+    "semantic_hash": ""
+  },
+  "fs-index/trabajos-detalle.md": {
+    "mtime": 1783647982.18933,
+    "ast_hash": "f9f0887de8ca8535b164dd67f2ef2ba6",
+    "semantic_hash": ""
+  },
+  "notes/2026-06-11_plan-sustitucion-openclaw-llm.md": {
+    "mtime": 1783567236.2584784,
+    "ast_hash": "cba888c7edafc3295c407a620c194ea1",
+    "semantic_hash": ""
+  },
+  "notes/BIOS Update - OptiPlex 9020.md": {
+    "mtime": 1784691784.0681856,
+    "ast_hash": "8606ac9bdbf859984b788e72f95fa766",
+    "semantic_hash": ""
+  },
+  "notes/diagnostico-openclaw.md": {
+    "mtime": 1783567223.2794847,
+    "ast_hash": "70e3aae841f32cdbb36570d69c3191e3",
+    "semantic_hash": ""
+  },
+  "notes/red-de-archivos.md": {
+    "mtime": 1783567198.7584984,
+    "ast_hash": "15f202726da35db6bcbe1d7b4fff58c3",
+    "semantic_hash": ""
+  },
+  "scripts/demo_taller/index.html": {
+    "mtime": 1785615986.270465,
+    "ast_hash": "8d7b63dd07d70511577c3936cdb67396",
+    "semantic_hash": ""
+  },
+  "scripts/leads_google_maps.md": {
+    "mtime": 1785616937.3599539,
+    "ast_hash": "336216787824e9ba96dc6996b4814d91",
+    "semantic_hash": ""
+  },
+  "skills/GLOSARIO.md": {
+    "mtime": 1783560384.8983057,
+    "ast_hash": "3c69e9e3cb24bbe8f5ca8c31dbd499f7",
+    "semantic_hash": ""
+  },
+  "skills/ponytail-audit/SKILL.md": {
+    "mtime": 1783560486.370219,
+    "ast_hash": "3e79cf83306b6d4964a85fdecf024066",
+    "semantic_hash": ""
+  },
+  "skills/ponytail-debt/SKILL.md": {
+    "mtime": 1783560431.1671743,
+    "ast_hash": "4cd7c8ffd4fa1cbb17a706700c8c8115",
+    "semantic_hash": ""
+  },
+  "skills/ponytail-gain/SKILL.md": {
+    "mtime": 1783560437.5972955,
+    "ast_hash": "e7b1483460bd7de26e43cca61437f372",
+    "semantic_hash": ""
+  },
+  "skills/ponytail-help/SKILL.md": {
+    "mtime": 1783560459.895717,
+    "ast_hash": "dfffe7b7f26606948dbafa9c8cbb0143",
+    "semantic_hash": ""
+  },
+  "skills/ponytail-review/SKILL.md": {
+    "mtime": 1783560420.9959826,
+    "ast_hash": "c7f3bfb9364681f56d033860e9cd46d2",
+    "semantic_hash": ""
+  },
+  "skills/ponytail/SKILL.md": {
+    "mtime": 1783560448.1744952,
+    "ast_hash": "18ba329251e9e8a79a8a52d24848ac2b",
+    "semantic_hash": ""
+  },
+  "Proyectos/Rescrip/Temas   II Prueba de avance F\u00edsica 11-1 (2).pdf": {
+    "mtime": 1782434669.0,
+    "ast_hash": "1ce9f78c59c290dedf509ba73ef74c66",
+    "semantic_hash": ""
+  },
+  "scripts/demo_taller/logo.svg": {
+    "mtime": 1785615986.270465,
+    "ast_hash": "27468e68bbd87942124b8ee2ccaaf339",
+    "semantic_hash": ""
+  }
+}

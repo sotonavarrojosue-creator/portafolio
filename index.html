@@ -3,200 +3,507 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aparecé — Webs para talleres y restaurantes · Cartago · San José, CR</title>
-<meta name="description" content="Sitios web para talleres y restaurantes de San José y Cartago: botón de WhatsApp, mapa y dominio a su nombre desde $25/mes. Demo gratis sin compromiso.">
-<meta name="theme-color" content="#0e1116">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23e85d04'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='13' font-weight='bold' fill='%230e1116' text-anchor='middle'%3E%3E_%3C/text%3E%3C/svg%3E">
+<title>APARECÉ — Presencia digital para negocios de Costa Rica</title>
+<meta name="description" content="Web, dominio y Google Business para PYMEs de Costa Rica. Si no aparece en Google, no existe. Desde $25/mes.">
+<meta name="theme-color" content="#F6F1E7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 2 C14.3 2 0 16.3 0 32 C0 56 32 62 32 62 C32 62 64 56 64 32 C64 16.3 49.7 2 32 2 Z' fill='%23FF5A1F'/%3E%3Ccircle cx='32' cy='32' r='16' fill='%230B0F14'/%3E%3Cpath d='M25 32 L30 37 L39 27' stroke='%23F6F1E7' stroke-width='4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --carbono:  hsl(220 12% 7%);
+    --carbono-2: hsl(220 10% 13%);
+    --papel:    hsl(40 33% 96%);
+    --papel-2:  hsl(40 26% 90%);
+    --naranja:  hsl(24 95% 52%);
+    --naranja-osc: hsl(24 90% 42%);
+    --gris:     hsl(220 8% 38%);
+    --gris-claro: hsl(220 8% 60%);
+    --hairline: hsl(220 10% 82%);
+    --disp: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+    --body: 'Barlow', 'Helvetica Neue', sans-serif;
+    --mono: 'IBM Plex Mono', 'Courier New', monospace;
+    --r-btn: 2px;
+    --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
+  body {
+    font-family: var(--body);
+    background: var(--papel);
+    color: var(--carbono);
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: var(--naranja); color: var(--papel); }
+  :focus-visible { outline: 3px solid var(--naranja); outline-offset: 2px; }
+  img { max-width:100%; display:block; }
+  a { color: inherit; }
+
+  /* ---------- utilidades ---------- */
+  .wrap { max-width: 1160px; margin-inline: auto; padding-inline: 24px; }
+  .mono { font-family: var(--mono); }
+  .idx { font-family: var(--mono); font-size: 13px; letter-spacing: 2px; color: var(--naranja); }
+  .lbl { font-family: var(--mono); font-size: 12px; letter-spacing: 3px; text-transform: uppercase; color: var(--gris); }
+  .kicker-txt { font-family: var(--mono); font-size: 13px; letter-spacing: 3px; }
+  .lead .mono-inline { font-size: .85em; }
+  .panel-note { font-family: var(--mono); font-size: 11.5px; letter-spacing: 1px; color: hsl(40 20% 78%); margin-top: 14px; line-height: 1.6; }
+  .sec.tight { padding-top: 20px; }
+  .btn-big { font-size: 15px; padding: 16px 30px; }
+
+  /* ---------- header ---------- */
+  header {
+    position: sticky; top: 0; z-index: 50;
+    background: color-mix(in srgb, var(--papel) 88%, transparent);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--hairline);
+  }
+  .nav { display:flex; align-items:center; justify-content:space-between; gap:24px; padding-block:14px; }
+  .brand { display:flex; align-items:center; gap:10px; text-decoration:none; }
+  .brand svg { height:34px; }
+  .nav-links { display:flex; align-items:center; gap:28px; list-style:none; }
+  .nav-links a { font-family: var(--mono); font-size: 12.5px; letter-spacing: 1.5px; text-transform: uppercase; text-decoration:none; color: var(--carbono); position:relative; }
+  .nav-links a::after { content:''; position:absolute; left:0; bottom:-4px; height:2px; width:0; background:var(--naranja); transition: width .2s var(--ease); }
+  .nav-links a:hover::after { width:100%; }
+  .btn {
+    display:inline-flex; align-items:center; gap:8px;
+    font-family: var(--mono); font-size: 13px; letter-spacing: 1.5px; text-transform: uppercase;
+    text-decoration:none; padding: 12px 22px; border-radius: var(--r-btn);
+    border: 1.5px solid var(--carbono); background: var(--carbono); color: var(--papel);
+    transition: background .18s var(--ease), color .18s var(--ease), transform .18s var(--ease);
+  }
+  .btn:hover { background: var(--naranja); border-color: var(--naranja); transform: translateY(-2px); }
+  .btn.ghost { background: transparent; color: var(--carbono); }
+  .btn.ghost:hover { background: var(--carbono); color: var(--papel); border-color: var(--carbono); }
+
+  /* ---------- hero ---------- */
+  .hero { padding: 88px 0 72px; }
+  .hero-grid { display:grid; grid-template-columns: 5fr 4fr; gap: 64px; align-items:center; }
+  .kicker { display:flex; align-items:center; gap:12px; margin-bottom:22px; }
+  .kicker-line { width:44px; height:2px; background: var(--naranja); }
+  .hero h1 {
+    font-family: var(--disp); font-weight: 800; text-transform: uppercase;
+    font-size: clamp(52px, 7vw, 88px); line-height: 0.95; letter-spacing: 1px;
+    text-wrap: balance; margin-bottom: 24px;
+  }
+  .hero h1 em { font-style: normal; color: var(--naranja); }
+  .hero p.lead { font-size: 19px; max-width: 46ch; color: var(--carbono-2); margin-bottom: 34px; }
+  .hero-ctas { display:flex; gap:16px; flex-wrap:wrap; }
+  .hero-note { margin-top: 20px; font-family: var(--mono); font-size: 12px; color: var(--gris); letter-spacing: .5px; }
+
+  /* panel de datos — "manual técnico" */
+  .panel {
+    border: 1.5px solid var(--carbono); background: var(--carbono); color: var(--papel);
+    padding: 28px 26px; position: relative;
+  }
+  .panel::before {
+    content: 'SPEC · GOOGLE MAPS · SJ 2026'; position:absolute; top:-11px; left:18px;
+    font-family: var(--mono); font-size: 11px; letter-spacing: 2px; color: var(--carbono);
+    background: var(--naranja); padding: 2px 10px;
+  }
+  .panel .big {
+    font-family: var(--disp); font-weight: 800; font-size: 72px; line-height: 1;
+    color: var(--naranja); letter-spacing: 1px;
+  }
+  .panel .big small { font-size: 30px; color: var(--papel); }
+  .panel-row { display:flex; justify-content:space-between; align-items:baseline; padding: 10px 0; border-top: 1px solid hsl(220 10% 30%); }
+  .panel-row span:first-child { font-family: var(--mono); font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; color: hsl(40 20% 78%); }
+  .panel-row span:last-child { font-family: var(--disp); font-weight: 700; font-size: 24px; letter-spacing: .5px; }
+  .panel-row .ok { color: hsl(140 50% 55%); }
+  .panel-row .bad { color: var(--naranja); }
+
+  /* ---------- sección problema: filas numeradas ---------- */
+  .sec { padding: 72px 0; }
+  .sec.dark { background: var(--carbono); color: var(--papel); }
+  .sec-head { display:flex; align-items:baseline; gap: 22px; margin-bottom: 40px; }
+  .sec-head h2 { font-family: var(--disp); font-weight: 700; text-transform: uppercase; font-size: clamp(34px, 4.5vw, 54px); line-height: 1; letter-spacing: 1px; }
+  .sec-head .mono { font-size: 12.5px; letter-spacing: 2px; }
+  .row-list { border-top: 1.5px solid currentColor; }
+  .row {
+    display: grid; grid-template-columns: 64px 1fr auto; gap: 24px; align-items: baseline;
+    padding: 22px 0; border-bottom: 1px solid var(--hairline);
+  }
+  .sec.dark .row { border-bottom-color: hsl(220 10% 28%); }
+  .row .num { font-family: var(--mono); font-size: 14px; letter-spacing: 2px; color: var(--naranja); }
+  .row h3 { font-family: var(--disp); font-weight: 600; font-size: 24px; text-transform: uppercase; letter-spacing: .5px; }
+  .row p { max-width: 60ch; }
+  .row .tag { font-family: var(--mono); font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; white-space: nowrap; }
+
+  /* ---------- entregables: columnas asimétricas ---------- */
+  .deliver { display:grid; grid-template-columns: 3fr 2fr; gap: 64px; }
+  .deliver-left h2 { font-family: var(--disp); font-weight: 700; text-transform: uppercase; font-size: clamp(34px, 4.5vw, 52px); line-height: 1; margin-bottom: 20px; }
+  .deliver-left > p { color: var(--gris); max-width: 50ch; margin-bottom: 28px; }
+  .checklist { list-style:none; }
+  .checklist li { display:flex; gap: 14px; align-items:flex-start; padding: 13px 0; border-bottom: 1px solid var(--hairline); }
+  .checklist li svg { flex-shrink:0; margin-top: 5px; }
+  .checklist strong { font-weight: 600; }
+  .checklist small { display:block; color: var(--gris); }
+  .quote-block {
+    border: 1.5px solid var(--carbono); padding: 26px; position: relative; align-self:start;
+    background: color-mix(in srgb, var(--papel-2) 60%, transparent);
+  }
+  .quote-block::before { content:'CASO REAL · SJ'; position:absolute; top:-11px; left:14px; font-family:var(--mono); font-size:11px; letter-spacing:2px; background:var(--naranja); color:var(--carbono); padding:2px 10px; }
+  .quote-block blockquote { font-family: var(--disp); font-size: 24px; line-height: 1.25; text-transform: uppercase; letter-spacing: .5px; margin-bottom: 16px; }
+  .quote-block .q-meta { font-family: var(--mono); font-size: 12px; color: var(--gris); letter-spacing: 1px; }
+
+  /* ---------- precios: tabla tipo spec ---------- */
+  .price-table { width:100%; border-collapse: collapse; }
+  .price-table th {
+    font-family: var(--mono); font-size: 12px; letter-spacing: 2px; text-transform: uppercase; text-align: left;
+    padding: 12px 10px; background: var(--carbono); color: var(--papel); border: 1.5px solid var(--carbono);
+  }
+  .price-table td { padding: 16px 10px; border: 1px solid var(--hairline); vertical-align: top; font-size: 15.5px; }
+  .price-table .plan-name { font-family: var(--disp); font-weight: 700; font-size: 26px; text-transform: uppercase; letter-spacing: .5px; }
+  .price-table .plan-price { font-family: var(--mono); font-size: 26px; font-variant-numeric: tabular-nums; color: var(--naranja); }
+  .price-table .plan-price small { display:block; font-size: 12px; color: var(--gris); letter-spacing: 1px; }
+  .price-table td ul { list-style:none; }
+  .price-table td li { padding: 3px 0; }
+  .price-table .featured { background: color-mix(in srgb, var(--papel-2) 70%, transparent); }
+  .price-note { margin-top: 18px; font-family: var(--mono); font-size: 12px; color: var(--gris); letter-spacing: .5px; }
+
+  /* ---------- proceso: 4 pasos ---------- */
+  .steps { display:grid; grid-template-columns: repeat(4, 1fr); gap: 0; border: 1.5px solid hsl(220 10% 30%); }
+  .step { padding: 26px 22px; border-right: 1px solid hsl(220 10% 30%); }
+  .step:last-child { border-right: none; }
+  .step .step-num { font-family: var(--disp); font-weight: 800; font-size: 44px; color: var(--naranja); line-height: 1; margin-bottom: 12px; }
+  .step h3 { font-family: var(--disp); font-weight: 600; font-size: 20px; text-transform: uppercase; letter-spacing: .5px; margin-bottom: 6px; }
+  .step p { font-size: 14.5px; color: hsl(40 20% 82%); }
+
+  /* ---------- CTA final ---------- */
+  .cta-final { text-align:left; padding: 80px 0; }
+  .cta-final h2 { font-family: var(--disp); font-weight: 800; text-transform: uppercase; font-size: clamp(40px, 6vw, 72px); line-height: .98; letter-spacing: 1px; max-width: 18ch; margin-bottom: 20px; }
+  .cta-final h2 em { font-style: normal; color: var(--naranja); }
+  .cta-final p { max-width: 46ch; margin-bottom: 32px; }
+
+  /* ---------- footer ---------- */
+  footer { border-top: 1.5px solid var(--carbono); padding: 36px 0; font-family: var(--mono); font-size: 12px; letter-spacing: 1px; text-transform: uppercase; color: var(--gris); }
+  .foot { display:flex; justify-content:space-between; gap: 20px; flex-wrap:wrap; }
+
+  /* ---------- motion variado ---------- */
+  .reveal { clip-path: inset(0 0 100% 0); animation: clipReveal .8s var(--ease) forwards; }
+  @keyframes clipReveal { to { clip-path: inset(0 0 0 0); } }
+  .slide-in { transform: translateX(40px); opacity: 0; animation: slideX .7s var(--ease) forwards; }
+  @keyframes slideX { to { transform: translateX(0); opacity: 1; } }
+  .rise { transform: translateY(16px); opacity: 0; animation: rise .6s var(--ease) forwards; }
+  @keyframes rise { to { transform: translateY(0); opacity: 1; } }
+  .d-1 { animation-delay: .08s; } .d-2 { animation-delay: .16s; } .d-3 { animation-delay: .24s; }
+  .d-4 { animation-delay: .32s; } .d-5 { animation-delay: .4s; }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; transform:none !important; opacity:1 !important; clip-path:none !important; }
+    html { scroll-behavior:auto; }
+  }
+
+  /* ---------- responsive ---------- */
+  @media (max-width: 900px) {
+    .hero-grid, .deliver { grid-template-columns: 1fr; gap: 40px; }
+    .hero { padding: 56px 0 48px; }
+    .steps { grid-template-columns: 1fr 1fr; }
+    .step:nth-child(2) { border-right: none; }
+    .step:nth-child(-n+2) { border-bottom: 1px solid hsl(220 10% 30%); }
+    .nav-links { display: none; }
+  }
+  @media (max-width: 560px) {
+    .steps { grid-template-columns: 1fr; }
+    .step { border-right: none; border-bottom: 1px solid hsl(220 10% 30%); }
+    .row { grid-template-columns: 40px 1fr; }
+    .row .tag { grid-column: 2; }
+    body { font-size: 16px; }
+  }
+</style>
 </head>
 <body>
 
-<!-- Topbar -->
-<div class="topbar">
-  <div class="wrap topbar__inner">
-    <span class="topbar__item"><span class="mono">GAM</span> Cartago · San José — Costa Rica</span>
-    <span class="topbar__item topbar__item--right mono" id="clock">HORA LOCAL —:—</span>
-  </div>
-</div>
-
-<!-- Nav -->
-<nav class="nav" id="nav">
-  <div class="wrap nav__inner">
-    <a class="nav__logo" href="#inicio" aria-label="Aparecé — inicio">
-      <svg class="nav__logo-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2"/><path d="M6 23 L14 9 L19 16 L23 9 L27 23" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg>
-      <span class="nav__logo-text"><b>APARECÉ</b><em class="mono">webs para negocios</em></span>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="APARECÉ — inicio">
+      <svg viewBox="0 0 640 120" role="img" aria-label="APARECÉ">
+        <g transform="translate(8,8)">
+          <path d="M50 0 C22.4 0 0 22.4 0 50 C0 87.5 50 110 50 110 C50 110 100 87.5 100 50 C100 22.4 77.6 0 50 0 Z" fill="#FF5A1F"/>
+          <circle cx="50" cy="50" r="24" fill="#0B0F14"/>
+          <path d="M40 50 L47 57 L61 42" stroke="#F6F1E7" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <text x="128" y="60" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-weight="800" font-size="56" letter-spacing="1" fill="#0B0F14">APARECÉ<text x="128" y="84" font-family="'IBM Plex Mono',monospace" font-size="12" letter-spacing="5" fill="#FF5A1F">PRESENCIA DIGITAL · CR</text></text>
+      </svg>
     </a>
-    <ul class="nav__links">
-      <li><a href="#caso"><span class="mono">[01]</span> Caso real</a></li>
-      <li><a href="#como"><span class="mono">[02]</span> Cómo trabajo</a></li>
-      <li><a href="#precios"><span class="mono">[03]</span> Precios</a></li>
-      <li><a href="#contacto"><span class="mono">[04]</span> Contacto</a></li>
-    </ul>
-    <a class="btn btn--solid" href="https://wa.me/50672169369?text=Hola%2C%20vi%20su%20portafolio%20y%20quiero%20una%20demo%20gratis" target="_blank" rel="noopener">Quiero mi demo</a>
-  </div>
-</nav>
-
-<!-- HERO -->
-<header class="hero" id="inicio">
-  <div class="wrap hero__grid">
-    <div class="hero__main">
-      <p class="hero__eyebrow mono"><span class="dot"></span> DEMO GRATIS · SIN COMPROMISO · DOMINIO A SU NOMBRE</p>
-      <h1 class="hero__title">
-        <span class="line">Si no aparece en</span>
-        <span class="line line--accent">Google, no existe.</span>
-      </h1>
-      <p class="hero__sub">Sitios web para talleres y restaurantes de San José y Cartago: botón de WhatsApp, mapa, reseñas y ficha de Google verificada. Le preparo la página de <strong>su</strong> negocio — gratis — y usted decide.</p>
-      <div class="hero__actions">
-        <a class="btn btn--solid btn--lg" href="https://wa.me/50672169369?text=Hola%2C%20vi%20su%20portafolio%20y%20quiero%20una%20demo%20gratis" target="_blank" rel="noopener">Quiero mi demo gratis →</a>
-        <a class="btn btn--ghost btn--lg" href="#caso">Ver caso real</a>
-      </div>
-      <p class="hero__note mono">Auditoría real: 15 negocios revisados en la GAM · 7 sin web (46%)</p>
-    </div>
-
-    <!-- Panel telemetry -->
-    <aside class="panel" aria-label="Datos del servicio">
-      <div class="panel__head">
-        <span class="mono">TELEMETRÍA — SERVICIO</span>
-        <span class="panel__led"></span>
-      </div>
-      <dl class="panel__rows">
-        <div class="panel__row">
-          <dt class="mono">ENTREGA</dt>
-          <dd class="panel__val">5<span class="panel__unit mono">días</span></dd>
-        </div>
-        <div class="panel__row">
-          <dt class="mono">DESDE</dt>
-          <dd class="panel__val">$25<span class="panel__unit mono">/mes</span></dd>
-        </div>
-        <div class="panel__row">
-          <dt class="mono">DOMINIO</dt>
-          <dd class="panel__val">Suyo<span class="panel__unit mono">.com</span></dd>
-        </div>
-        <div class="panel__row">
-          <dt class="mono">DEMO</dt>
-          <dd class="panel__val">$0<span class="panel__unit mono">siempre</span></dd>
-        </div>
-      </dl>
-      <p class="panel__foot mono">ESTADO: ACEPTANDO 3 NEGOCIOS ESTA SEMANA</p>
-    </aside>
+    <nav aria-label="Principal">
+      <ul class="nav-links">
+        <li><a href="#problema">El problema</a></li>
+        <li><a href="#planes">Planes</a></li>
+        <li><a href="#proceso">Proceso</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <a class="btn" href="https://wa.me/50672169369?text=Hola%2C%20quiero%20una%20p%C3%A1gina%20web%20para%20mi%20negocio">Cotizar por WhatsApp →</a>
   </div>
 </header>
 
-<!-- CASO REAL -->
-<section class="section" id="caso">
-  <div class="wrap">
-    <p class="section__eyebrow mono">[01] — CASO REAL</p>
-    <h2 class="section__title">Taller mecánico de San José — <em>de invisible a contactable</em></h2>
+<main id="top">
 
-    <div class="beforeafter">
-      <div class="ba__col ba__col--before">
-        <p class="ba__tag mono">ANTES</p>
-        <ul class="ba__list">
-          <li>Buscaban <em>"taller mecánico cerca de mí"</em> y su ficha no tenía web</li>
-          <li>Sin botón de WhatsApp: el cliente tenía que anotar el número</li>
-          <li>Competencia con web se llevaba la llamada</li>
-        </ul>
+  <!-- HERO -->
+  <section class="hero wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="kicker">
+          <span class="kicker-line"></span>
+          <span class="mono kicker-txt">WEB · DOMINIO · GOOGLE · WHATSAPP</span>
+        </div>
+        <h1 class="reveal">Si no <em>aparece</em> en Google, no existe.</h1>
+        <p class="lead rise d-1">Le hacemos su página web, le ponemos el dominio a su nombre y lo dejamos apareciendo cuando alguien busca <span class="mono mono-inline">"taller cerca de mí"</span>. En Costa Rica, desde $25 al mes.</p>
+        <div class="hero-ctas rise d-2">
+          <a class="btn" href="https://wa.me/50672169369?text=Hola%2C%20quiero%20ver%20un%20ejemplo%20de%20web%20para%20mi%20negocio">Ver ejemplo gratis →</a>
+          <a class="btn ghost" href="#planes">Ver planes</a>
+        </div>
+        <p class="hero-note rise d-3">Sin permanencia · El dominio es suyo · Soporte en español</p>
       </div>
-      <div class="ba__arrow mono" aria-hidden="true">→</div>
-      <div class="ba__col ba__col--after">
-        <p class="ba__tag mono ba__tag--accent">AHORA</p>
-        <ul class="ba__list">
-          <li>Web propia con botón de WhatsApp en el primer vistazo</li>
-          <li>Cotización por WhatsApp en 30 minutos</li>
-          <li>Dominio a su nombre + ficha de Google con enlace</li>
-        </ul>
+      <aside class="panel slide-in d-2" aria-label="Datos del problema">
+        <div class="panel-row">
+          <span>Negocios revisados (SJ)</span>
+          <span class="mono">15</span>
+        </div>
+        <div class="panel-row">
+          <span>Sin web o web de mala calidad</span>
+          <span class="bad big"><small>&nbsp;</small>46%</span>
+        </div>
+        <div class="panel-row">
+          <span>Ficha de Google sin enlace</span>
+          <span class="bad">—</span>
+        </div>
+        <div class="panel-row">
+          <span>Con web + ficha + WhatsApp</span>
+          <span class="ok">0</span>
+        </div>
+        <p class="panel-note">Muestra propia, Google Maps · San José · Ago 2026. El que no aparece, pierde la llamada.</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- PROBLEMA -->
+  <section class="sec" id="problema">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>El problema</h2>
+        <span class="mono">[ 01 ] · LO QUE LE PASA AL QUE NO APARECE</span>
+      </div>
+      <div class="row-list">
+        <div class="row">
+          <span class="num">[01]</span>
+          <div>
+            <h3>Lo buscan en Google y no lo encuentran</h3>
+            <p>Su ficha de Google tiene buenas reseñas, pero sin web ni botón de WhatsApp. El cliente que lo busca se va con el negocio que sí aparece completo.</p>
+          </div>
+          <span class="tag">TODOS LOS DÍAS</span>
+        </div>
+        <div class="row">
+          <span class="num">[02]</span>
+          <div>
+            <h3>Facebook no aparece ahí</h3>
+            <p>Cuando alguien busca "taller mecánico cerca de mí", Google muestra fichas con web. Su página de Facebook no entra en esa lista.</p>
+          </div>
+          <span class="tag">BÚSQUEDA LOCAL</span>
+        </div>
+        <div class="row">
+          <span class="num">[03]</span>
+          <div>
+            <h3>La competencia sí aparece</h3>
+            <p>Los negocios con web verificada reciben la llamada. Los que no, pierden el cliente antes de sonar el teléfono.</p>
+          </div>
+          <span class="tag">PÉRDIDA SILENCIOSA</span>
+        </div>
       </div>
     </div>
+  </section>
 
-    <div class="caso__actions">
-      <a class="btn btn--solid" href="https://wa.me/50672169369?text=Hola%2C%20vi%20el%20caso%20real%20de%20su%20portafolio%2C%20quiero%20el%20mio" target="_blank" rel="noopener">Quiero el mío igual</a>
-      <span class="caso__note mono">La página del taller mecánico está lista para mostrarle en vivo</span>
+  <!-- ENTREGABLES -->
+  <section class="sec tight">
+    <div class="wrap deliver">
+      <div class="deliver-left">
+        <h2>Qué le entregamos</h2>
+        <p>No es solo "una página". Es su negocio completo apareciendo en Google, con todo incluido y sin letra chica.</p>
+        <ul class="checklist">
+          <li>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FF5A1F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5 L9.5 18 L20 6.5"/></svg>
+            <div><strong>Página web profesional</strong><small>Hecha a mano, rápida, con botón de WhatsApp. No parece plantilla.</small></div>
+          </li>
+          <li>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FF5A1F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5 L9.5 18 L20 6.5"/></svg>
+            <div><strong>Dominio .com a su nombre</strong><small>Usted es el dueño. Si mañana se va, se lleva todo.</small></div>
+          </li>
+          <li>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FF5A1F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5 L9.5 18 L20 6.5"/></svg>
+            <div><strong>Ficha de Google verificada</strong><small>Con enlace a su web. Ahí es donde lo buscan.</small></div>
+          </li>
+          <li>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FF5A1F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5 L9.5 18 L20 6.5"/></svg>
+            <div><strong>Fotos reales de su negocio</strong><small>Nada de stock. Las que usted saca con el teléfono.</small></div>
+          </li>
+          <li>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FF5A1F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5 L9.5 18 L20 6.5"/></svg>
+            <div><strong>Reporte mensual</strong><small>Le contamos cuánta gente lo visitó y quién le escribió.</small></div>
+          </li>
+        </ul>
+      </div>
+      <aside class="quote-block" aria-label="Caso real anónimo">
+        <blockquote>"Le hice una web a un taller mecánico de San José. Hoy su ficha de Google manda directo al botón de WhatsApp."</blockquote>
+        <div class="q-meta">CASO ANÓNIMO · TALLER DE SJ · AGOSTO 2026</div>
+      </aside>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- CÓMO TRABAJO -->
-<section class="section section--dark" id="como">
-  <div class="wrap">
-    <p class="section__eyebrow mono">[02] — CÓMO TRABAJO</p>
-    <h2 class="section__title">Tres pasos. <em>Usted no arriesga nada.</em></h2>
+  <!-- PLANES -->
+  <section class="sec tight" id="planes">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Planes</h2>
+        <span class="mono">[ 02 ] · SIMPLE Y SIN PERMANENCIA</span>
+      </div>
+      <table class="price-table">
+        <thead>
+          <tr>
+            <th scope="col">Base</th>
+            <th scope="col">Estándar</th>
+            <th scope="col">Premium</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="plan-name">Base</td>
+            <td class="plan-name">Estándar</td>
+            <td class="plan-name">Premium</td>
+          </tr>
+          <tr>
+            <td><span class="plan-price">$25<small>≈ ₡13.500 / mes</small></span></td>
+            <td><span class="plan-price">$45<small>≈ ₡24.300 / mes</small></span></td>
+            <td><span class="plan-price">$75<small>≈ ₡40.500 / mes</small></span></td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>✓ Web 1 página / 5 secciones</li>
+                <li>✓ Dominio .com a su nombre</li>
+                <li>✓ SSL + hosting</li>
+                <li>✓ Botón WhatsApp</li>
+                <li>✓ Google Business verificado</li>
+                <li>✓ 1 actualización / mes</li>
+                <li>✓ Reporte mensual</li>
+              </ul>
+            </td>
+            <td class="featured">
+              <ul>
+                <li>✓ Todo lo de Base</li>
+                <li>✓ Galería de fotos</li>
+                <li>✓ Mapa + reseñas Google</li>
+                <li>✓ SEO local</li>
+                <li>✓ 2 actualizaciones / mes</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>✓ Todo lo de Estándar</li>
+                <li>✓ Multi-página</li>
+                <li>✓ Agenda de turnos online</li>
+                <li>✓ 4 actualizaciones / mes</li>
+                <li>✓ Soporte prioritario</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="price-note">¿No le gusta el mensual? Prepago: $250 con dominio + hosting 1 año y 3 meses de soporte. El primer mes va incluido en el anticipo (50% al empezar).</p>
+    </div>
+  </section>
 
-    <ol class="steps">
-      <li class="step">
-        <span class="step__num mono">01</span>
-        <h3>Le preparo su página — gratis</h3>
-        <p>Con los datos de su negocio: servicios, precios en ₡, mapa, botón de WhatsApp. Sin compromiso.</p>
-      </li>
-      <li class="step">
-        <span class="step__num mono">02</span>
-        <h3>La ve, la prueba, decide</h3>
-        <p>Se la mando por WhatsApp para que la abra en su celular. Si le gusta, la activamos. Si no, se queda de ejemplo.</p>
-      </li>
-      <li class="step">
-        <span class="step__num mono">03</span>
-        <h3>Aparece en Google y le avisan por WhatsApp</h3>
-        <p>Dominio a su nombre, ficha de Google verificada con enlace, y cada mes le actualizo precios o promociones.</p>
-      </li>
-    </ol>
-  </div>
-</section>
+  <!-- PROCESO -->
+  <section class="sec dark" id="proceso">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Proceso</h2>
+        <span class="mono">[ 03 ] · DE LA PRIMERA LLAMADA A LA PUBLICACIÓN</span>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <h3>Le mostramos un ejemplo</h3>
+          <p>Le preparamos una página de muestra con los datos de SU negocio. Gratis, sin compromiso. Usted la ve en WhatsApp.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <h3>Contrato y anticipo</h3>
+          <p>50% al empezar. Contrato simple, en español, con todo claro: qué incluye, cuánto cuesta, quién es dueño de qué.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <h3>Publicamos su web</h3>
+          <p>Con sus fotos, sus precios y su horario. En menos de 5 días hábiles. La ficha de Google queda enlazada.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <h3>Actualizamos cada mes</h3>
+          <p>Cambios, reporte de visitas y soporte en español. Si quiere irse, se lleva el dominio y los archivos. Sin drama.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<!-- PRECIOS -->
-<section class="section" id="precios">
-  <div class="wrap">
-    <p class="section__eyebrow mono">[03] — PRECIOS</p>
-    <h2 class="section__title">Planes claros. <em>Sin letra pequeña.</em></h2>
+  <!-- FAQ -->
+  <section class="sec tight" id="faq">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Preguntas frecuentes</h2>
+        <span class="mono">[ 04 ] · LAS QUE MÁS NOS HACEN</span>
+      </div>
+      <div class="row-list">
+        <div class="row">
+          <span class="num">[01]</span>
+          <div>
+            <h3>"¿Para qué necesito web si el teléfono no para de sonar?"</h3>
+            <p>Justo: el que lo busca en Google hoy no tiene su teléfono — se va con el que aparece. La web es para los clientes que ya lo buscan.</p>
+          </div>
+        </div>
+        <div class="row">
+          <span class="num">[02]</span>
+          <div>
+            <h3>"Ya tengo Facebook"</h3>
+            <p>Facebook no aparece en "taller cerca de mí" de Google. La web + ficha verificada es lo que aparece ahí.</p>
+          </div>
+        </div>
+        <div class="row">
+          <span class="num">[03]</span>
+          <div>
+            <h3>"¿Y si no funciona?"</h3>
+            <p>El dominio y los archivos son suyos desde el día uno. Cancela con 30 días de aviso y se lleva todo. Sin permanencia.</p>
+          </div>
+        </div>
+        <div class="row">
+          <span class="num">[04]</span>
+          <div>
+            <h3>"¿Cuánto cuesta?"</h3>
+            <p>Desde $25 al mes, dominio incluido a su nombre. O $250 pagado de una vez con un año incluido.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <table class="pricing">
-      <thead>
-        <tr>
-          <th class="mono">PLAN</th>
-          <th class="mono">INCLUYE</th>
-          <th class="mono">PRECIO</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><b>BÁSICO</b><em class="mono">1 página</em></td>
-          <td>Web + botón WhatsApp + mapa · dominio .com a su nombre · SSL · hosting · ficha Google verificada · 1 actualización/mes · reporte de visitas</td>
-          <td class="price mono">$25<span>/mes</span></td>
-        </tr>
-        <tr>
-          <td><b>ESTÁNDAR</b><em class="mono">recomendado</em></td>
-          <td>Todo lo del Básico + galería · reseñas de Google en su web · SEO local · 2 actualizaciones/mes</td>
-          <td class="price mono">$45<span>/mes</span></td>
-        </tr>
-        <tr>
-          <td><b>PREMIUM</b><em class="mono">multi-página</em></td>
-          <td>Todo lo del Estándar + agenda de citas · presupuesto online · 4 actualizaciones/mes · prioridad</td>
-          <td class="price mono">$75<span>/mes</span></td>
-        </tr>
-      </tbody>
-    </table>
-    <p class="pricing__note mono">¿Prefiere pagar de una vez? Básico $150 · Estándar $250 · Premium $500 — con dominio y soporte incluidos.</p>
-  </div>
-</section>
+  <!-- CTA FINAL -->
+  <section class="cta-final wrap">
+    <h2>¿Su negocio ya <em>aparece?</em></h2>
+    <p>Escríbanos por WhatsApp. Le preparamos una página de ejemplo con los datos de su negocio — gratis y sin compromiso — y usted decide con algo a la vista.</p>
+    <a class="btn btn-big" href="https://wa.me/50672169369?text=Hola%2C%20quiero%20ver%20un%20ejemplo%20de%20web%20para%20mi%20negocio">Cotizar por WhatsApp →</a>
+    <p class="hero-note">Respuesta en menos de 24 h · Cartago y San José · Costa Rica</p>
+  </section>
 
-<!-- CONTACTO -->
-<section class="section section--cta" id="contacto">
-  <div class="wrap cta__inner">
-    <h2 class="cta__title">Su competencia ya está<br>apareciendo en Google.</h2>
-    <p class="cta__sub">Le preparo la página de su negocio gratis. ¿Se la mando por WhatsApp?</p>
-    <a class="btn btn--solid btn--lg" href="https://wa.me/50672169369?text=Hola%2C%20vi%20su%20portafolio%20y%20quiero%20mi%20demo%20gratis" target="_blank" rel="noopener">Sí, quiero mi demo →</a>
-    <p class="cta__note mono">Respuesta en menos de 1 hora · Cartago · San José, Costa Rica</p>
-  </div>
-</section>
+</main>
 
-<footer class="footer">
-  <div class="wrap footer__inner">
-    <span class="mono">APARECÉ — WEBS PARA NEGOCIOS · CARTAGO · SAN JOSÉ</span>
-    <span class="mono">¿REFIERE UN NEGOCIO? UN MES GRATIS</span>
+<footer>
+  <div class="wrap foot">
+    <span>APARECÉ — Presencia Digital · CR</span>
+    <span>WhatsApp +506&nbsp;7216‑9369 · hola@aparece.cr</span>
+    <span>© 2026 · Hecho en Costa Rica</span>
   </div>
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
