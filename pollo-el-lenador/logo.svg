@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Pollo Asado El Leñador">
+  <rect width="64" height="64" fill="#1b1714"/>
+  <path d="M32 10c8 6 12 12 12 20s-5 14-12 14S20 36 20 30 24 16 32 10z" fill="#c8462c"/>
+  <circle cx="32" cy="30" r="5" fill="#f4ecdd"/>
+  <path d="M32 44 L32 56 M26 52 L32 56 L38 52" stroke="#e07a2f" stroke-width="3" fill="none"/>
+</svg>
